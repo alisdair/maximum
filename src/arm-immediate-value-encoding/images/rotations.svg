@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="700px" height="656px" viewBox="0 0 700 656" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" style="font-family: Menlo, DejaVu Sans Mono, Consolas, Courier">
+    <title>rotations</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Bit-numbers-+-Rotation-+-Background" sketch:type="MSLayerGroup" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="10">
+            <g id="Bit-numbers" transform="translate(59.000000, 0.000000)" sketch:type="MSTextLayer">
+                <text id="31">
+                    <tspan x="3.97949219" y="9">31</tspan>
+                </text>
+                <text id="30">
+                    <tspan x="23.9794922" y="9">30</tspan>
+                </text>
+                <text id="29">
+                    <tspan x="43.9794922" y="9">29</tspan>
+                </text>
+                <text id="28">
+                    <tspan x="63.9794922" y="9">28</tspan>
+                </text>
+                <text id="27">
+                    <tspan x="83.9794922" y="9">27</tspan>
+                </text>
+                <text id="26">
+                    <tspan x="103.979492" y="9">26</tspan>
+                </text>
+                <text id="25">
+                    <tspan x="123.979492" y="9">25</tspan>
+                </text>
+                <text id="24">
+                    <tspan x="143.979492" y="9">24</tspan>
+                </text>
+                <text id="23">
+                    <tspan x="163.979492" y="9">23</tspan>
+                </text>
+                <text id="22">
+                    <tspan x="183.979492" y="9">22</tspan>
+                </text>
+                <text id="21">
+                    <tspan x="203.979492" y="9">21</tspan>
+                </text>
+                <text id="20">
+                    <tspan x="223.979492" y="9">20</tspan>
+                </text>
+                <text id="19">
+                    <tspan x="243.979492" y="9">19</tspan>
+                </text>
+                <text id="18">
+                    <tspan x="263.979492" y="9">18</tspan>
+                </text>
+                <text id="17">
+                    <tspan x="283.979492" y="9">17</tspan>
+                </text>
+                <text id="16">
+                    <tspan x="303.979492" y="9">16</tspan>
+                </text>
+                <text id="15">
+                    <tspan x="323.979492" y="9">15</tspan>
+                </text>
+                <text id="14">
+                    <tspan x="343.979492" y="9">14</tspan>
+                </text>
+                <text id="13">
+                    <tspan x="363.979492" y="9">13</tspan>
+                </text>
+                <text id="12">
+                    <tspan x="383.979492" y="9">12</tspan>
+                </text>
+                <text id="11">
+                    <tspan x="403.979492" y="9">11</tspan>
+                </text>
+                <text id="10">
+                    <tspan x="423.979492" y="9">10</tspan>
+                </text>
+                <text id="9">
+                    <tspan x="446.989746" y="9">9</tspan>
+                </text>
+                <text id="8">
+                    <tspan x="466.989746" y="9">8</tspan>
+                </text>
+                <text id="7">
+                    <tspan x="486.989746" y="9">7</tspan>
+                </text>
+                <text id="6">
+                    <tspan x="506.989746" y="9">6</tspan>
+                </text>
+                <text id="5">
+                    <tspan x="526.989746" y="9">5</tspan>
+                </text>
+                <text id="4">
+                    <tspan x="546.989746" y="9">4</tspan>
+                </text>
+                <text id="3">
+                    <tspan x="566.989746" y="9">3</tspan>
+                </text>
+                <text id="2">
+                    <tspan x="586.989746" y="9">2</tspan>
+                </text>
+                <text id="1">
+                    <tspan x="606.989746" y="9">1</tspan>
+                </text>
+                <text id="0">
+                    <tspan x="626.989746" y="9">0</tspan>
+                </text>
+            </g>
+            <text id="Rotation" sketch:type="MSTextLayer">
+                <tspan x="0" y="9">Rotation</tspan>
+            </text>
+        </g>
+        <g id="Rotation-0" sketch:type="MSLayerGroup" transform="translate(8.000000, 15.000000)">
+            <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
+            <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="531" y="0" width="160" height="40"></rect>
+            <g id="Bits" transform="translate(538.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+                <text id="7">
+                    <tspan x="-0.5" y="13">7</tspan>
+                </text>
+                <text id="6">
+                    <tspan x="19.5" y="13">6</tspan>
+                </text>
+                <text id="5">
+                    <tspan x="38.5" y="13">5</tspan>
+                </text>
+                <text id="4">
+                    <tspan x="58.5" y="13">4</tspan>
+                </text>
+                <text id="3">
+                    <tspan x="78.5" y="13">3</tspan>
+                </text>
+                <text id="2">
+                    <tspan x="98.5" y="13">2</tspan>
+                </text>
+                <text id="1">
+                    <tspan x="118.5" y="13">1</tspan>
+                </text>
+                <text id="0">
+                    <tspan x="138.5" y="13">0</tspan>
+                </text>
+            </g>
+            <g id="Outlines" transform="translate(51.000000, 0.000000)" stroke="#000000" stroke-width="2" sketch:type="MSShapeGroup">
+                <g id="Bit-bounds-(b3)" transform="translate(19.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-31"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-30"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-29"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-28"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-27"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-26"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-25"></path>
+                </g>
+                <g id="Bit-bounds-(b2)" transform="translate(179.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-23"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-22"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-21"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-20"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-19"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-18"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-17"></path>
+                </g>
+                <g id="Bit-bounds-(b1)" transform="translate(340.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-15"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-14"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-13"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-12"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-11"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit--10"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-9"></path>
+                </g>
+                <g id="Bit-bounds-(b0)" transform="translate(499.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-7"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-6"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-5"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-4"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-3"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-2"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-1"></path>
+                </g>
+                <g id="Byte-bounds" transform="translate(159.000000, 1.000000)" stroke-opacity="0.5" stroke-dasharray="8,24,8,24">
+                    <path d="M1,0 L0.999998339,38" id="Bit-24"></path>
+                    <path d="M161,0 L160.999998,38" id="Bit-16"></path>
+                    <path d="M321,0 L320.999998,38" id="Bit-8"></path>
+                </g>
+                <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
+            </g>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0x0</tspan>
+            </text>
+        </g>
+        <g id="Rotation-1" sketch:type="MSLayerGroup" transform="translate(8.000000, 55.000000)">
+            <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
+            <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="571" y="0" width="120" height="40"></rect>
+            <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="51" y="0" width="40" height="40"></rect>
+            <g id="Bits" transform="translate(56.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+                <text id="7">
+                    <tspan x="521.5" y="13">7</tspan>
+                </text>
+                <text id="6">
+                    <tspan x="541.5" y="13">6</tspan>
+                </text>
+                <text id="5">
+                    <tspan x="560.5" y="13">5</tspan>
+                </text>
+                <text id="4">
+                    <tspan x="580.5" y="13">4</tspan>
+                </text>
+                <text id="3">
+                    <tspan x="600.5" y="13">3</tspan>
+                </text>
+                <text id="2">
+                    <tspan x="620.5" y="13">2</tspan>
+                </text>
+                <text id="1">
+                    <tspan x="0.5" y="13">1</tspan>
+                </text>
+                <text id="0">
+                    <tspan x="20.5" y="13">0</tspan>
+                </text>
+            </g>
+            <g id="Outlines" transform="translate(51.000000, 0.000000)" stroke="#000000" stroke-width="2" sketch:type="MSShapeGroup">
+                <g id="Bit-bounds-(b3)" transform="translate(19.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-31"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-30"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-29"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-28"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-27"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-26"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-25"></path>
+                </g>
+                <g id="Bit-bounds-(b2)" transform="translate(179.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-23"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-22"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-21"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-20"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-19"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-18"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-17"></path>
+                </g>
+                <g id="Bit-bounds-(b1)" transform="translate(340.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-15"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-14"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-13"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-12"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-11"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit--10"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-9"></path>
+                </g>
+                <g id="Bit-bounds-(b0)" transform="translate(499.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-7"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-6"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-5"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-4"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-3"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-2"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-1"></path>
+                </g>
+                <g id="Byte-bounds" transform="translate(159.000000, 1.000000)" stroke-opacity="0.5" stroke-dasharray="8,24,8,24">
+                    <path d="M1,0 L0.999998339,38" id="Bit-24"></path>
+                    <path d="M161,0 L160.999998,38" id="Bit-16"></path>
+                    <path d="M321,0 L320.999998,38" id="Bit-8"></path>
+                </g>
+                <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
+            </g>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0x1</tspan>
+            </text>
+        </g>
+        <g id="Rotation-2" sketch:type="MSLayerGroup" transform="translate(8.000000, 95.000000)">
+            <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
+            <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="611" y="0" width="80" height="40"></rect>
+            <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="51" y="0" width="80" height="40"></rect>
+            <g id="Bits" transform="translate(56.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+                <text id="7">
+                    <tspan x="561.5" y="13">7</tspan>
+                </text>
+                <text id="6">
+                    <tspan x="581.5" y="13">6</tspan>
+                </text>
+                <text id="5">
+                    <tspan x="600.5" y="13">5</tspan>
+                </text>
+                <text id="4">
+                    <tspan x="620.5" y="13">4</tspan>
+                </text>
+                <text id="3">
+                    <tspan x="0.5" y="13">3</tspan>
+                </text>
+                <text id="2">
+                    <tspan x="20.5" y="13">2</tspan>
+                </text>
+                <text id="1">
+                    <tspan x="40.5" y="13">1</tspan>
+                </text>
+                <text id="0">
+                    <tspan x="60.5" y="13">0</tspan>
+                </text>
+            </g>
+            <g id="Outlines" transform="translate(51.000000, 0.000000)" stroke="#000000" stroke-width="2" sketch:type="MSShapeGroup">
+                <g id="Bit-bounds-(b3)" transform="translate(19.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-31"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-30"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-29"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-28"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-27"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-26"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-25"></path>
+                </g>
+                <g id="Bit-bounds-(b2)" transform="translate(179.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-23"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-22"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-21"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-20"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-19"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-18"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-17"></path>
+                </g>
+                <g id="Bit-bounds-(b1)" transform="translate(340.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-15"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-14"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-13"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-12"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-11"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit--10"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-9"></path>
+                </g>
+                <g id="Bit-bounds-(b0)" transform="translate(499.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-7"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-6"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-5"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-4"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-3"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-2"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-1"></path>
+                </g>
+                <g id="Byte-bounds" transform="translate(159.000000, 1.000000)" stroke-opacity="0.5" stroke-dasharray="8,24,8,24">
+                    <path d="M1,0 L0.999998339,38" id="Bit-24"></path>
+                    <path d="M161,0 L160.999998,38" id="Bit-16"></path>
+                    <path d="M321,0 L320.999998,38" id="Bit-8"></path>
+                </g>
+                <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
+            </g>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0x2</tspan>
+            </text>
+        </g>
+        <g id="Rotation-3" sketch:type="MSLayerGroup" transform="translate(8.000000, 135.000000)">
+            <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
+            <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="651" y="0" width="40" height="40"></rect>
+            <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="51" y="0" width="120" height="40"></rect>
+            <g id="Bits" transform="translate(56.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+                <text id="7">
+                    <tspan x="601.5" y="13">7</tspan>
+                </text>
+                <text id="6">
+                    <tspan x="621.5" y="13">6</tspan>
+                </text>
+                <text id="5">
+                    <tspan x="0.5" y="13">5</tspan>
+                </text>
+                <text id="4">
+                    <tspan x="20.5" y="13">4</tspan>
+                </text>
+                <text id="3">
+                    <tspan x="40.5" y="13">3</tspan>
+                </text>
+                <text id="2">
+                    <tspan x="60.5" y="13">2</tspan>
+                </text>
+                <text id="1">
+                    <tspan x="80.5" y="13">1</tspan>
+                </text>
+                <text id="0">
+                    <tspan x="100.5" y="13">0</tspan>
+                </text>
+            </g>
+            <g id="Outlines" transform="translate(51.000000, 0.000000)" stroke="#000000" stroke-width="2" sketch:type="MSShapeGroup">
+                <g id="Bit-bounds-(b3)" transform="translate(19.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-31"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-30"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-29"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-28"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-27"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-26"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-25"></path>
+                </g>
+                <g id="Bit-bounds-(b2)" transform="translate(179.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-23"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-22"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-21"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-20"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-19"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-18"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-17"></path>
+                </g>
+                <g id="Bit-bounds-(b1)" transform="translate(340.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-15"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-14"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-13"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-12"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-11"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit--10"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-9"></path>
+                </g>
+                <g id="Bit-bounds-(b0)" transform="translate(499.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-7"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-6"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-5"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-4"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-3"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-2"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-1"></path>
+                </g>
+                <g id="Byte-bounds" transform="translate(159.000000, 1.000000)" stroke-opacity="0.5" stroke-dasharray="8,24,8,24">
+                    <path d="M1,0 L0.999998339,38" id="Bit-24"></path>
+                    <path d="M161,0 L160.999998,38" id="Bit-16"></path>
+                    <path d="M321,0 L320.999998,38" id="Bit-8"></path>
+                </g>
+                <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
+            </g>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0x3</tspan>
+            </text>
+        </g>
+        <g id="Rotation-4" sketch:type="MSLayerGroup" transform="translate(8.000000, 175.000000)">
+            <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
+            <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="51" y="0" width="160" height="40"></rect>
+            <g id="Bits" transform="translate(58.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+                <text id="7">
+                    <tspan x="-0.5" y="13">7</tspan>
+                </text>
+                <text id="6">
+                    <tspan x="19.5" y="13">6</tspan>
+                </text>
+                <text id="5">
+                    <tspan x="38.5" y="13">5</tspan>
+                </text>
+                <text id="4">
+                    <tspan x="58.5" y="13">4</tspan>
+                </text>
+                <text id="3">
+                    <tspan x="78.5" y="13">3</tspan>
+                </text>
+                <text id="2">
+                    <tspan x="98.5" y="13">2</tspan>
+                </text>
+                <text id="1">
+                    <tspan x="118.5" y="13">1</tspan>
+                </text>
+                <text id="0">
+                    <tspan x="138.5" y="13">0</tspan>
+                </text>
+            </g>
+            <g id="Outlines" transform="translate(51.000000, 0.000000)" stroke="#000000" stroke-width="2" sketch:type="MSShapeGroup">
+                <g id="Bit-bounds-(b3)" transform="translate(19.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-31"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-30"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-29"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-28"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-27"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-26"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-25"></path>
+                </g>
+                <g id="Bit-bounds-(b2)" transform="translate(179.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-23"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-22"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-21"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-20"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-19"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-18"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-17"></path>
+                </g>
+                <g id="Bit-bounds-(b1)" transform="translate(340.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-15"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-14"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-13"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-12"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-11"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit--10"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-9"></path>
+                </g>
+                <g id="Bit-bounds-(b0)" transform="translate(499.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-7"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-6"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-5"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-4"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-3"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-2"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-1"></path>
+                </g>
+                <g id="Byte-bounds" transform="translate(159.000000, 1.000000)" stroke-opacity="0.5" stroke-dasharray="8,24,8,24">
+                    <path d="M1,0 L0.999998339,38" id="Bit-24"></path>
+                    <path d="M161,0 L160.999998,38" id="Bit-16"></path>
+                    <path d="M321,0 L320.999998,38" id="Bit-8"></path>
+                </g>
+                <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
+            </g>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0x4</tspan>
+            </text>
+        </g>
+        <g id="Rotation-5" sketch:type="MSLayerGroup" transform="translate(8.000000, 215.000000)">
+            <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
+            <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="91" y="0" width="160" height="40"></rect>
+            <g id="Bits" transform="translate(98.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+                <text id="7">
+                    <tspan x="-0.5" y="13">7</tspan>
+                </text>
+                <text id="6">
+                    <tspan x="19.5" y="13">6</tspan>
+                </text>
+                <text id="5">
+                    <tspan x="38.5" y="13">5</tspan>
+                </text>
+                <text id="4">
+                    <tspan x="58.5" y="13">4</tspan>
+                </text>
+                <text id="3">
+                    <tspan x="78.5" y="13">3</tspan>
+                </text>
+                <text id="2">
+                    <tspan x="98.5" y="13">2</tspan>
+                </text>
+                <text id="1">
+                    <tspan x="118.5" y="13">1</tspan>
+                </text>
+                <text id="0">
+                    <tspan x="138.5" y="13">0</tspan>
+                </text>
+            </g>
+            <g id="Outlines" transform="translate(51.000000, 0.000000)" stroke="#000000" stroke-width="2" sketch:type="MSShapeGroup">
+                <g id="Bit-bounds-(b3)" transform="translate(19.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-31"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-30"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-29"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-28"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-27"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-26"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-25"></path>
+                </g>
+                <g id="Bit-bounds-(b2)" transform="translate(179.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-23"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-22"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-21"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-20"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-19"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-18"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-17"></path>
+                </g>
+                <g id="Bit-bounds-(b1)" transform="translate(340.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-15"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-14"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-13"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-12"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-11"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit--10"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-9"></path>
+                </g>
+                <g id="Bit-bounds-(b0)" transform="translate(499.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-7"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-6"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-5"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-4"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-3"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-2"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-1"></path>
+                </g>
+                <g id="Byte-bounds" transform="translate(159.000000, 1.000000)" stroke-opacity="0.5" stroke-dasharray="8,24,8,24">
+                    <path d="M1,0 L0.999998339,38" id="Bit-24"></path>
+                    <path d="M161,0 L160.999998,38" id="Bit-16"></path>
+                    <path d="M321,0 L320.999998,38" id="Bit-8"></path>
+                </g>
+                <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
+            </g>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0x5</tspan>
+            </text>
+        </g>
+        <g id="Rotation-6" sketch:type="MSLayerGroup" transform="translate(8.000000, 255.000000)">
+            <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
+            <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="131" y="0" width="160" height="40"></rect>
+            <g id="Bits" transform="translate(138.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+                <text id="7">
+                    <tspan x="-0.5" y="13">7</tspan>
+                </text>
+                <text id="6">
+                    <tspan x="19.5" y="13">6</tspan>
+                </text>
+                <text id="5">
+                    <tspan x="38.5" y="13">5</tspan>
+                </text>
+                <text id="4">
+                    <tspan x="58.5" y="13">4</tspan>
+                </text>
+                <text id="3">
+                    <tspan x="78.5" y="13">3</tspan>
+                </text>
+                <text id="2">
+                    <tspan x="98.5" y="13">2</tspan>
+                </text>
+                <text id="1">
+                    <tspan x="118.5" y="13">1</tspan>
+                </text>
+                <text id="0">
+                    <tspan x="138.5" y="13">0</tspan>
+                </text>
+            </g>
+            <g id="Outlines" transform="translate(51.000000, 0.000000)" stroke="#000000" stroke-width="2" sketch:type="MSShapeGroup">
+                <g id="Bit-bounds-(b3)" transform="translate(19.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-31"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-30"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-29"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-28"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-27"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-26"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-25"></path>
+                </g>
+                <g id="Bit-bounds-(b2)" transform="translate(179.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-23"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-22"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-21"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-20"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-19"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-18"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-17"></path>
+                </g>
+                <g id="Bit-bounds-(b1)" transform="translate(340.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-15"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-14"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-13"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-12"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-11"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit--10"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-9"></path>
+                </g>
+                <g id="Bit-bounds-(b0)" transform="translate(499.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-7"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-6"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-5"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-4"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-3"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-2"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-1"></path>
+                </g>
+                <g id="Byte-bounds" transform="translate(159.000000, 1.000000)" stroke-opacity="0.5" stroke-dasharray="8,24,8,24">
+                    <path d="M1,0 L0.999998339,38" id="Bit-24"></path>
+                    <path d="M161,0 L160.999998,38" id="Bit-16"></path>
+                    <path d="M321,0 L320.999998,38" id="Bit-8"></path>
+                </g>
+                <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
+            </g>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0x6</tspan>
+            </text>
+        </g>
+        <g id="Rotation-7" sketch:type="MSLayerGroup" transform="translate(8.000000, 295.000000)">
+            <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
+            <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="171" y="0" width="160" height="40"></rect>
+            <g id="Bits" transform="translate(178.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+                <text id="7">
+                    <tspan x="-0.5" y="13">7</tspan>
+                </text>
+                <text id="6">
+                    <tspan x="19.5" y="13">6</tspan>
+                </text>
+                <text id="5">
+                    <tspan x="38.5" y="13">5</tspan>
+                </text>
+                <text id="4">
+                    <tspan x="58.5" y="13">4</tspan>
+                </text>
+                <text id="3">
+                    <tspan x="78.5" y="13">3</tspan>
+                </text>
+                <text id="2">
+                    <tspan x="98.5" y="13">2</tspan>
+                </text>
+                <text id="1">
+                    <tspan x="118.5" y="13">1</tspan>
+                </text>
+                <text id="0">
+                    <tspan x="138.5" y="13">0</tspan>
+                </text>
+            </g>
+            <g id="Outlines" transform="translate(51.000000, 0.000000)" stroke="#000000" stroke-width="2" sketch:type="MSShapeGroup">
+                <g id="Bit-bounds-(b3)" transform="translate(19.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-31"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-30"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-29"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-28"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-27"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-26"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-25"></path>
+                </g>
+                <g id="Bit-bounds-(b2)" transform="translate(179.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-23"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-22"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-21"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-20"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-19"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-18"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-17"></path>
+                </g>
+                <g id="Bit-bounds-(b1)" transform="translate(340.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-15"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-14"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-13"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-12"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-11"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit--10"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-9"></path>
+                </g>
+                <g id="Bit-bounds-(b0)" transform="translate(499.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-7"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-6"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-5"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-4"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-3"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-2"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-1"></path>
+                </g>
+                <g id="Byte-bounds" transform="translate(159.000000, 1.000000)" stroke-opacity="0.5" stroke-dasharray="8,24,8,24">
+                    <path d="M1,0 L0.999998339,38" id="Bit-24"></path>
+                    <path d="M161,0 L160.999998,38" id="Bit-16"></path>
+                    <path d="M321,0 L320.999998,38" id="Bit-8"></path>
+                </g>
+                <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
+            </g>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0x7</tspan>
+            </text>
+        </g>
+        <g id="Rotation-8" sketch:type="MSLayerGroup" transform="translate(8.000000, 335.000000)">
+            <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
+            <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="211" y="0" width="160" height="40"></rect>
+            <g id="Bits" transform="translate(218.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+                <text id="7">
+                    <tspan x="-0.5" y="13">7</tspan>
+                </text>
+                <text id="6">
+                    <tspan x="19.5" y="13">6</tspan>
+                </text>
+                <text id="5">
+                    <tspan x="38.5" y="13">5</tspan>
+                </text>
+                <text id="4">
+                    <tspan x="58.5" y="13">4</tspan>
+                </text>
+                <text id="3">
+                    <tspan x="78.5" y="13">3</tspan>
+                </text>
+                <text id="2">
+                    <tspan x="98.5" y="13">2</tspan>
+                </text>
+                <text id="1">
+                    <tspan x="118.5" y="13">1</tspan>
+                </text>
+                <text id="0">
+                    <tspan x="138.5" y="13">0</tspan>
+                </text>
+            </g>
+            <g id="Outlines" transform="translate(51.000000, 0.000000)" stroke="#000000" stroke-width="2" sketch:type="MSShapeGroup">
+                <g id="Bit-bounds-(b3)" transform="translate(19.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-31"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-30"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-29"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-28"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-27"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-26"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-25"></path>
+                </g>
+                <g id="Bit-bounds-(b2)" transform="translate(179.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-23"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-22"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-21"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-20"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-19"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-18"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-17"></path>
+                </g>
+                <g id="Bit-bounds-(b1)" transform="translate(340.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-15"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-14"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-13"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-12"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-11"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit--10"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-9"></path>
+                </g>
+                <g id="Bit-bounds-(b0)" transform="translate(499.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-7"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-6"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-5"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-4"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-3"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-2"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-1"></path>
+                </g>
+                <g id="Byte-bounds" transform="translate(159.000000, 1.000000)" stroke-opacity="0.5" stroke-dasharray="8,24,8,24">
+                    <path d="M1,0 L0.999998339,38" id="Bit-24"></path>
+                    <path d="M161,0 L160.999998,38" id="Bit-16"></path>
+                    <path d="M321,0 L320.999998,38" id="Bit-8"></path>
+                </g>
+                <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
+            </g>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0x8</tspan>
+            </text>
+        </g>
+        <g id="Rotation-9" sketch:type="MSLayerGroup" transform="translate(8.000000, 375.000000)">
+            <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
+            <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="251" y="0" width="160" height="40"></rect>
+            <g id="Bits" transform="translate(258.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+                <text id="7">
+                    <tspan x="-0.5" y="13">7</tspan>
+                </text>
+                <text id="6">
+                    <tspan x="19.5" y="13">6</tspan>
+                </text>
+                <text id="5">
+                    <tspan x="38.5" y="13">5</tspan>
+                </text>
+                <text id="4">
+                    <tspan x="58.5" y="13">4</tspan>
+                </text>
+                <text id="3">
+                    <tspan x="78.5" y="13">3</tspan>
+                </text>
+                <text id="2">
+                    <tspan x="98.5" y="13">2</tspan>
+                </text>
+                <text id="1">
+                    <tspan x="118.5" y="13">1</tspan>
+                </text>
+                <text id="0">
+                    <tspan x="138.5" y="13">0</tspan>
+                </text>
+            </g>
+            <g id="Outlines" transform="translate(51.000000, 0.000000)" stroke="#000000" stroke-width="2" sketch:type="MSShapeGroup">
+                <g id="Bit-bounds-(b3)" transform="translate(19.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-31"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-30"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-29"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-28"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-27"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-26"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-25"></path>
+                </g>
+                <g id="Bit-bounds-(b2)" transform="translate(179.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-23"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-22"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-21"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-20"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-19"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-18"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-17"></path>
+                </g>
+                <g id="Bit-bounds-(b1)" transform="translate(340.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-15"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-14"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-13"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-12"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-11"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit--10"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-9"></path>
+                </g>
+                <g id="Bit-bounds-(b0)" transform="translate(499.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-7"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-6"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-5"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-4"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-3"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-2"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-1"></path>
+                </g>
+                <g id="Byte-bounds" transform="translate(159.000000, 1.000000)" stroke-opacity="0.5" stroke-dasharray="8,24,8,24">
+                    <path d="M1,0 L0.999998339,38" id="Bit-24"></path>
+                    <path d="M161,0 L160.999998,38" id="Bit-16"></path>
+                    <path d="M321,0 L320.999998,38" id="Bit-8"></path>
+                </g>
+                <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
+            </g>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0x9</tspan>
+            </text>
+        </g>
+        <g id="Rotation-10" sketch:type="MSLayerGroup" transform="translate(8.000000, 415.000000)">
+            <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
+            <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="291" y="0" width="160" height="40"></rect>
+            <g id="Bits" transform="translate(298.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+                <text id="7">
+                    <tspan x="-0.5" y="13">7</tspan>
+                </text>
+                <text id="6">
+                    <tspan x="19.5" y="13">6</tspan>
+                </text>
+                <text id="5">
+                    <tspan x="38.5" y="13">5</tspan>
+                </text>
+                <text id="4">
+                    <tspan x="58.5" y="13">4</tspan>
+                </text>
+                <text id="3">
+                    <tspan x="78.5" y="13">3</tspan>
+                </text>
+                <text id="2">
+                    <tspan x="98.5" y="13">2</tspan>
+                </text>
+                <text id="1">
+                    <tspan x="118.5" y="13">1</tspan>
+                </text>
+                <text id="0">
+                    <tspan x="138.5" y="13">0</tspan>
+                </text>
+            </g>
+            <g id="Outlines" transform="translate(51.000000, 0.000000)" stroke="#000000" stroke-width="2" sketch:type="MSShapeGroup">
+                <g id="Bit-bounds-(b3)" transform="translate(19.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-31"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-30"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-29"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-28"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-27"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-26"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-25"></path>
+                </g>
+                <g id="Bit-bounds-(b2)" transform="translate(179.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-23"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-22"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-21"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-20"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-19"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-18"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-17"></path>
+                </g>
+                <g id="Bit-bounds-(b1)" transform="translate(340.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-15"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-14"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-13"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-12"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-11"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit--10"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-9"></path>
+                </g>
+                <g id="Bit-bounds-(b0)" transform="translate(499.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-7"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-6"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-5"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-4"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-3"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-2"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-1"></path>
+                </g>
+                <g id="Byte-bounds" transform="translate(159.000000, 1.000000)" stroke-opacity="0.5" stroke-dasharray="8,24,8,24">
+                    <path d="M1,0 L0.999998339,38" id="Bit-24"></path>
+                    <path d="M161,0 L160.999998,38" id="Bit-16"></path>
+                    <path d="M321,0 L320.999998,38" id="Bit-8"></path>
+                </g>
+                <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
+            </g>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0xA</tspan>
+            </text>
+        </g>
+        <g id="Rotation-11" sketch:type="MSLayerGroup" transform="translate(8.000000, 455.000000)">
+            <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
+            <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="331" y="0" width="160" height="40"></rect>
+            <g id="Bits" transform="translate(338.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+                <text id="7">
+                    <tspan x="-0.5" y="13">7</tspan>
+                </text>
+                <text id="6">
+                    <tspan x="19.5" y="13">6</tspan>
+                </text>
+                <text id="5">
+                    <tspan x="38.5" y="13">5</tspan>
+                </text>
+                <text id="4">
+                    <tspan x="58.5" y="13">4</tspan>
+                </text>
+                <text id="3">
+                    <tspan x="78.5" y="13">3</tspan>
+                </text>
+                <text id="2">
+                    <tspan x="98.5" y="13">2</tspan>
+                </text>
+                <text id="1">
+                    <tspan x="118.5" y="13">1</tspan>
+                </text>
+                <text id="0">
+                    <tspan x="138.5" y="13">0</tspan>
+                </text>
+            </g>
+            <g id="Outlines" transform="translate(51.000000, 0.000000)" stroke="#000000" stroke-width="2" sketch:type="MSShapeGroup">
+                <g id="Bit-bounds-(b3)" transform="translate(19.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-31"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-30"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-29"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-28"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-27"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-26"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-25"></path>
+                </g>
+                <g id="Bit-bounds-(b2)" transform="translate(179.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-23"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-22"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-21"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-20"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-19"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-18"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-17"></path>
+                </g>
+                <g id="Bit-bounds-(b1)" transform="translate(340.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-15"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-14"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-13"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-12"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-11"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit--10"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-9"></path>
+                </g>
+                <g id="Bit-bounds-(b0)" transform="translate(499.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-7"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-6"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-5"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-4"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-3"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-2"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-1"></path>
+                </g>
+                <g id="Byte-bounds" transform="translate(159.000000, 1.000000)" stroke-opacity="0.5" stroke-dasharray="8,24,8,24">
+                    <path d="M1,0 L0.999998339,38" id="Bit-24"></path>
+                    <path d="M161,0 L160.999998,38" id="Bit-16"></path>
+                    <path d="M321,0 L320.999998,38" id="Bit-8"></path>
+                </g>
+                <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
+            </g>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0xB</tspan>
+            </text>
+        </g>
+        <g id="Rotation-12" sketch:type="MSLayerGroup" transform="translate(8.000000, 495.000000)">
+            <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
+            <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="371" y="0" width="160" height="40"></rect>
+            <g id="Bits" transform="translate(378.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+                <text id="7">
+                    <tspan x="-0.5" y="13">7</tspan>
+                </text>
+                <text id="6">
+                    <tspan x="19.5" y="13">6</tspan>
+                </text>
+                <text id="5">
+                    <tspan x="38.5" y="13">5</tspan>
+                </text>
+                <text id="4">
+                    <tspan x="58.5" y="13">4</tspan>
+                </text>
+                <text id="3">
+                    <tspan x="78.5" y="13">3</tspan>
+                </text>
+                <text id="2">
+                    <tspan x="98.5" y="13">2</tspan>
+                </text>
+                <text id="1">
+                    <tspan x="118.5" y="13">1</tspan>
+                </text>
+                <text id="0">
+                    <tspan x="138.5" y="13">0</tspan>
+                </text>
+            </g>
+            <g id="Outlines" transform="translate(51.000000, 0.000000)" stroke="#000000" stroke-width="2" sketch:type="MSShapeGroup">
+                <g id="Bit-bounds-(b3)" transform="translate(19.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-31"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-30"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-29"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-28"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-27"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-26"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-25"></path>
+                </g>
+                <g id="Bit-bounds-(b2)" transform="translate(179.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-23"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-22"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-21"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-20"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-19"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-18"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-17"></path>
+                </g>
+                <g id="Bit-bounds-(b1)" transform="translate(340.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-15"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-14"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-13"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-12"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-11"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit--10"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-9"></path>
+                </g>
+                <g id="Bit-bounds-(b0)" transform="translate(499.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-7"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-6"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-5"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-4"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-3"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-2"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-1"></path>
+                </g>
+                <g id="Byte-bounds" transform="translate(159.000000, 1.000000)" stroke-opacity="0.5" stroke-dasharray="8,24,8,24">
+                    <path d="M1,0 L0.999998339,38" id="Bit-24"></path>
+                    <path d="M161,0 L160.999998,38" id="Bit-16"></path>
+                    <path d="M321,0 L320.999998,38" id="Bit-8"></path>
+                </g>
+                <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
+            </g>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0xC</tspan>
+            </text>
+        </g>
+        <g id="Rotation-13" sketch:type="MSLayerGroup" transform="translate(8.000000, 535.000000)">
+            <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
+            <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="411" y="0" width="160" height="40"></rect>
+            <g id="Bits" transform="translate(418.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+                <text id="7">
+                    <tspan x="-0.5" y="13">7</tspan>
+                </text>
+                <text id="6">
+                    <tspan x="19.5" y="13">6</tspan>
+                </text>
+                <text id="5">
+                    <tspan x="38.5" y="13">5</tspan>
+                </text>
+                <text id="4">
+                    <tspan x="58.5" y="13">4</tspan>
+                </text>
+                <text id="3">
+                    <tspan x="78.5" y="13">3</tspan>
+                </text>
+                <text id="2">
+                    <tspan x="98.5" y="13">2</tspan>
+                </text>
+                <text id="1">
+                    <tspan x="118.5" y="13">1</tspan>
+                </text>
+                <text id="0">
+                    <tspan x="138.5" y="13">0</tspan>
+                </text>
+            </g>
+            <g id="Outlines" transform="translate(51.000000, 0.000000)" stroke="#000000" stroke-width="2" sketch:type="MSShapeGroup">
+                <g id="Bit-bounds-(b3)" transform="translate(19.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-31"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-30"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-29"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-28"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-27"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-26"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-25"></path>
+                </g>
+                <g id="Bit-bounds-(b2)" transform="translate(179.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-23"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-22"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-21"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-20"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-19"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-18"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-17"></path>
+                </g>
+                <g id="Bit-bounds-(b1)" transform="translate(340.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-15"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-14"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-13"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-12"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-11"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit--10"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-9"></path>
+                </g>
+                <g id="Bit-bounds-(b0)" transform="translate(499.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-7"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-6"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-5"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-4"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-3"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-2"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-1"></path>
+                </g>
+                <g id="Byte-bounds" transform="translate(159.000000, 1.000000)" stroke-opacity="0.5" stroke-dasharray="8,24,8,24">
+                    <path d="M1,0 L0.999998339,38" id="Bit-24"></path>
+                    <path d="M161,0 L160.999998,38" id="Bit-16"></path>
+                    <path d="M321,0 L320.999998,38" id="Bit-8"></path>
+                </g>
+                <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
+            </g>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0xD</tspan>
+            </text>
+        </g>
+        <g id="Rotation-14" sketch:type="MSLayerGroup" transform="translate(8.000000, 575.000000)">
+            <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
+            <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="451" y="0" width="160" height="40"></rect>
+            <g id="Bits" transform="translate(458.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+                <text id="7">
+                    <tspan x="-0.5" y="13">7</tspan>
+                </text>
+                <text id="6">
+                    <tspan x="19.5" y="13">6</tspan>
+                </text>
+                <text id="5">
+                    <tspan x="38.5" y="13">5</tspan>
+                </text>
+                <text id="4">
+                    <tspan x="58.5" y="13">4</tspan>
+                </text>
+                <text id="3">
+                    <tspan x="78.5" y="13">3</tspan>
+                </text>
+                <text id="2">
+                    <tspan x="98.5" y="13">2</tspan>
+                </text>
+                <text id="1">
+                    <tspan x="118.5" y="13">1</tspan>
+                </text>
+                <text id="0">
+                    <tspan x="138.5" y="13">0</tspan>
+                </text>
+            </g>
+            <g id="Outlines" transform="translate(51.000000, 0.000000)" stroke="#000000" stroke-width="2" sketch:type="MSShapeGroup">
+                <g id="Bit-bounds-(b3)" transform="translate(19.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-31"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-30"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-29"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-28"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-27"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-26"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-25"></path>
+                </g>
+                <g id="Bit-bounds-(b2)" transform="translate(179.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-23"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-22"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-21"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-20"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-19"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-18"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-17"></path>
+                </g>
+                <g id="Bit-bounds-(b1)" transform="translate(340.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-15"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-14"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-13"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-12"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-11"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit--10"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-9"></path>
+                </g>
+                <g id="Bit-bounds-(b0)" transform="translate(499.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-7"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-6"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-5"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-4"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-3"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-2"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-1"></path>
+                </g>
+                <g id="Byte-bounds" transform="translate(159.000000, 1.000000)" stroke-opacity="0.5" stroke-dasharray="8,24,8,24">
+                    <path d="M1,0 L0.999998339,38" id="Bit-24"></path>
+                    <path d="M161,0 L160.999998,38" id="Bit-16"></path>
+                    <path d="M321,0 L320.999998,38" id="Bit-8"></path>
+                </g>
+                <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
+            </g>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0xE</tspan>
+            </text>
+        </g>
+        <g id="Rotation-15" sketch:type="MSLayerGroup" transform="translate(8.000000, 615.000000)">
+            <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
+            <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="491" y="0" width="160" height="40"></rect>
+            <g id="Bits" transform="translate(498.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+                <text id="7">
+                    <tspan x="-0.5" y="13">7</tspan>
+                </text>
+                <text id="6">
+                    <tspan x="19.5" y="13">6</tspan>
+                </text>
+                <text id="5">
+                    <tspan x="38.5" y="13">5</tspan>
+                </text>
+                <text id="4">
+                    <tspan x="58.5" y="13">4</tspan>
+                </text>
+                <text id="3">
+                    <tspan x="78.5" y="13">3</tspan>
+                </text>
+                <text id="2">
+                    <tspan x="98.5" y="13">2</tspan>
+                </text>
+                <text id="1">
+                    <tspan x="118.5" y="13">1</tspan>
+                </text>
+                <text id="0">
+                    <tspan x="138.5" y="13">0</tspan>
+                </text>
+            </g>
+            <g id="Outlines" transform="translate(51.000000, 0.000000)" stroke="#000000" stroke-width="2" sketch:type="MSShapeGroup">
+                <g id="Bit-bounds-(b3)" transform="translate(19.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-31"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-30"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-29"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-28"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-27"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-26"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-25"></path>
+                </g>
+                <g id="Bit-bounds-(b2)" transform="translate(179.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-23"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-22"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-21"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-20"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-19"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-18"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-17"></path>
+                </g>
+                <g id="Bit-bounds-(b1)" transform="translate(340.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-15"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-14"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-13"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-12"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-11"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit--10"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-9"></path>
+                </g>
+                <g id="Bit-bounds-(b0)" transform="translate(499.000000, 1.000000)" stroke-opacity="0.2" stroke-dasharray="5,30,5,30">
+                    <path d="M1,0 L0.999998339,38" id="Bit-7"></path>
+                    <path d="M21,0 L20.9999983,38" id="Bit-6"></path>
+                    <path d="M41,0 L40.9999983,38" id="Bit-5"></path>
+                    <path d="M61,0 L60.9999983,38" id="Bit-4"></path>
+                    <path d="M81,0 L80.9999983,38" id="Bit-3"></path>
+                    <path d="M101,0 L100.999998,38" id="Bit-2"></path>
+                    <path d="M121,0 L120.999998,38" id="Bit-1"></path>
+                </g>
+                <g id="Byte-bounds" transform="translate(159.000000, 1.000000)" stroke-opacity="0.5" stroke-dasharray="8,24,8,24">
+                    <path d="M1,0 L0.999998339,38" id="Bit-24"></path>
+                    <path d="M161,0 L160.999998,38" id="Bit-16"></path>
+                    <path d="M321,0 L320.999998,38" id="Bit-8"></path>
+                </g>
+                <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
+            </g>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0xF</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+{{> header}}
+
+<main class="page-width" role="main">
+  <nav class="posts-index" role="navigation">
+    {{#each collections.posts}}
+      <a href="{{data.permalink}}" class="post-link">
+        <article>
+          <header>
+            <time datetime="{{data.date}}">{{moment date 'Do MMMM YYYY'}}</time>
+            <h1>{{data.title}}</h1>
+          </header>
+
+          <p>{{data.description}}</p>
+        </article>
+      </a>
+    {{/each}}
+  </nav>
+</main>
+
+{{> footer}}

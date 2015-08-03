@@ -1,0 +1,36 @@
+body
+  font: 16px/1.5 "DejaVu Sans", "Helvetica", sans-serif
+  color: $foreground
+  background: $background
+
+code
+  font: 12px/1.5 "DejaVu Sans Mono", "Menlo", monospace
+
+p code
+  font-size: 1em
+  background: $highlight-yellow
+
+h1, h2, h3, h4, h5, h6
+  font-family: "Roboto Slab", sans-serif
+
+h1
+  line-height: 1.2
+
+h2
+  font-size: 1.4em
+
+p, pre, div
+  margin: 1.5em 0
+
+blockquote
+  border-left: 2px solid $mid-grey
+  color: $dark-grey
+  margin-left: $gutter
+  padding-left: $gutter
+
+@media screen and (min-width: 560px)
+  body
+    font-size: 20px
+
+  code
+    font-size: 16px
