@@ -55,6 +55,22 @@ var injectData = function(options) {
   }
 };
 
+var injectCSS = function(options) {
+  var from = options.from || 'css/site.css';
+  var to = options.to || [];
+
+  return function(files, metalsmith) {
+    var css = files[from].contents;
+
+    for (var file in files) {
+      if (to.indexOf(path.basename(file)) !== -1) {
+
+        files[file].css = css;
+      }
+    }
+  }
+};
+
 Metalsmith(__dirname)
   .metadata({
     site: {
@@ -102,6 +118,10 @@ Metalsmith(__dirname)
         return code;
       }
     }
+  }))
+  .use(injectCSS({
+    from: 'css/site.css',
+    to: ['index.html']
   }))
   .use(partials({
     directory: 'partials'

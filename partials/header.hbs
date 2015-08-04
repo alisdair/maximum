@@ -4,7 +4,11 @@
   <title>{{title}}</title>
   <meta charset='utf-8'>
   <meta name="description" value="{{description}}">
+  {{#if css}}
+  <style type="text/css">{{{css}}}</style>
+  {{else}}
   <link href="/css/site.css" type="text/css" rel="stylesheet">
+  {{/if}}
   {{#if stylesheet}}
   <link href="{{stylesheet}}" type="text/css" rel="stylesheet">
   {{/if}}
