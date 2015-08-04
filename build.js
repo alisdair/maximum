@@ -8,8 +8,6 @@ var each = require('metalsmith-each');
 var path = require('path');
 var sass = require('metalsmith-sass');
 var ignore = require('metalsmith-ignore');
-var watch = require('metalsmith-watch');
-var serve = require('metalsmith-serve');
 var partials = require('metalsmith-register-partials');
 var handlebars = require('handlebars');
 var moment = require('moment');
@@ -135,14 +133,6 @@ Metalsmith(__dirname)
     'sass/*',
     '*/data.json'
   ]))
-  .use(watch({
-    paths: {
-      "${source}/**/*": "**/*",
-      "layouts/*": "**/*",
-      "${source}/sass/*": "sass/site.sass"
-    }
-  }))
-  .use(serve())
   .build(function(err, files) {
     // console.log(files);
     if (err) throw err;
