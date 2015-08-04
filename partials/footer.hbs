@@ -1,5 +1,12 @@
-<footer class="page-width pad-h">
-  <a href="/feed.atom">Feed</a>
+<footer class="footer--main page-width pad-h">
+  {{#if date}}
+    <div class="pull-left">
+      <time>Posted {{moment date 'Do MMMM YYYY'}}</time>
+    </div>
+  {{/if}}
+  <div class="pull-right">
+    <a href="https://twitter.com/alisdair">@alisdair</a>
+  </div>
 </footer>
 </body>
 </html>

@@ -1,17 +1,21 @@
 body
-  font: 16px/1.5 "DejaVu Sans", "Helvetica", sans-serif
+  +body-font
+  font-size: 16px
+  line-height: 1.5
   color: $foreground
   background: $background
 
 code
-  font: 12px/1.5 "DejaVu Sans Mono", "Menlo", monospace
+  +code-font
+  font-size: 12px
+  line-height: 1.5
 
 p code
   font-size: 1em
   background: $highlight-yellow
 
-h1, h2, h3, h4, h5, h6
-  font-family: "Roboto Slab", sans-serif
+h1, h2, h3, h4, h5, h6, .header--banner
+  +heading-font
 
 h1
   line-height: 1.2

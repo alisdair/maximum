@@ -1,10 +1,14 @@
 {{> header}}
 
 <main class="page-width" role="main">
+  <header class="header--main pad-h">
+    Alisdair McDiarmid is a senior software engineer based in Glasgow, Scotland. This is his weblog, which is mostly about software. Links: <a href="https://github.com/alisdair">GitHub</a> and <a href="https://twitter.com/alisdair">Twitter</a>.
+  </header>
+
   <nav class="posts-index" role="navigation">
     {{#each collections.posts}}
       <a href="{{data.permalink}}" class="post-link">
-        <article>
+        <article class="pad">
           <header>
             <time datetime="{{data.date}}">{{moment date 'Do MMMM YYYY'}}</time>
             <h1>{{data.title}}</h1>

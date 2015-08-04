@@ -1,7 +1,7 @@
 {{> header}}
 
 <main class="page-width" role="main">
-  <article>
+  <article class="pad-h">
     <header>
       <h1>{{title}}</h1>
     </header>
@@ -11,10 +11,6 @@
     {{#each appended}}
       {{{contents}}}
     {{/each}}
-
-    <footer>
-      <time>Posted {{moment date 'Do MMMM YYYY'}}</time>
-    </footer>
   </article>
 </main>
 
