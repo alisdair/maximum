@@ -47,6 +47,11 @@ var injectData = function(options) {
               if (key === 'append') {
                 files[post]['appended'] = append(dirname, files, data[key])
               }
+
+              if (key === 'stylesheet') {
+                var css = files[path.join(dirname, data[key])].contents;
+                files[post]['stylesheet'] = css;
+              }
             }
           }
         });
@@ -132,6 +137,7 @@ Metalsmith(__dirname)
     pattern: ['*.html', '*/*.html', '!_*.html', '!*/_*.html']
   }))
   .use(ignore([
+    'css/*',
     'sass/*',
     '*/data.json'
   ]))
