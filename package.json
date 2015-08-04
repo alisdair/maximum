@@ -18,9 +18,14 @@
     "moment": "^2.10.6",
     "multimatch": "^2.0.0"
   },
+  "config": {
+    "server": "user@rsynchost.domain.com:path-with-trailing-slash/"
+  },
   "scripts": {
     "build": "node --harmony_generators build.js",
-    "serve": "http-server build -p 5400 -a localhost -o -c-1",
-    "start": "npm run build && npm run serve"
+    "serve": "http-server build -p 5400 -o -c-1",
+    "start": "npm run build && npm run serve",
+    "deploy": "npm run build && npm run rsync",
+    "rsync": "rsync -rtz --delete build/ $npm_package_config_server"
   }
 }
