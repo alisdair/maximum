@@ -13,6 +13,7 @@ var serve = require('metalsmith-serve');
 var partials = require('metalsmith-register-partials');
 var handlebars = require('handlebars');
 var moment = require('moment');
+var match = require('multimatch');
 
 handlebars.registerHelper('moment', function(date, format) {
     return moment(date).format(format);
@@ -27,36 +28,30 @@ var append = function(dirname, files, items) {
 };
 
 var injectData = function(options) {
-  var from = options.from || 'data.json';
+  var from = options.from || ['*/data.json'];
   var to = options.to || [];
 
   return function(files, metalsmith) {
-    for (var file in files) {
-      if (path.basename(file) === from) {
-        var data = files[file].data;
-        var dirname = path.dirname(file);
+    match(Object.keys(files), from).forEach(function(file) {
+      var data = files[file].data;
+      var dirname = path.dirname(file);
+      var targets = to.map(function(f) { return path.join(dirname, f); });
 
-        to.forEach(function(filename) {
-          var post = path.join(dirname, filename);
-          var key;
+      match(Object.keys(files), targets).forEach(function(filename) {
+        for (var key in data) {
+          files[filename][key] = data[key];
 
-          if (files[post]) {
-            for (key in data) {
-              files[post][key] = data[key];
-
-              if (key === 'append') {
-                files[post]['appended'] = append(dirname, files, data[key])
-              }
-
-              if (key === 'stylesheet') {
-                var css = files[path.join(dirname, data[key])].contents;
-                files[post]['stylesheet'] = css;
-              }
-            }
+          if (key === 'append') {
+            files[filename]['appended'] = append(dirname, files, data[key])
           }
-        });
-      }
-    }
+
+          if (key === 'stylesheet') {
+            var css = files[path.join(dirname, data[key])].contents;
+            files[filename]['stylesheet'] = css;
+          }
+        }
+      });
+    });
   }
 };
 
@@ -67,12 +62,9 @@ var injectCSS = function(options) {
   return function(files, metalsmith) {
     var css = files[from].contents;
 
-    for (var file in files) {
-      if (to.indexOf(path.basename(file)) !== -1) {
-
-        files[file].css = css;
-      }
-    }
+    match(Object.keys(files), to).forEach(function(file) {
+      files[file].css = css;
+    });
   }
 };
 
@@ -98,8 +90,8 @@ Metalsmith(__dirname)
     }
   }))
   .use(injectData({
-    from: 'data.json',
-    to: ['data.json', 'index.md']
+    from: ['*/data.json'],
+    to: ['data.json', '*.md']
   }))
   .use(collections({
     posts: {
@@ -126,7 +118,7 @@ Metalsmith(__dirname)
   }))
   .use(injectCSS({
     from: 'css/site.css',
-    to: ['index.html']
+    to: ['*.html', '*/*.html']
   }))
   .use(partials({
     directory: 'partials'
