@@ -14,6 +14,7 @@ var partials = require('metalsmith-register-partials');
 var handlebars = require('handlebars');
 var moment = require('moment');
 var match = require('multimatch');
+var autoprefixer = require('metalsmith-autoprefixer');
 
 handlebars.registerHelper('moment', function(date, format) {
     return moment(date).format(format);
@@ -81,6 +82,7 @@ Metalsmith(__dirname)
       return originalPath.replace("sass", "css");
     }
   }))
+  .use(autoprefixer())
   .use(json({
     key: 'data'
   }))
