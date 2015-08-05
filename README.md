@@ -1,6 +1,24 @@
 # Maximum
 
-Better than Medium.
+Software for building the weblog I want to write. Supports writing [posts which include interactive demos with SVGs](http://alisdair.mcdiarmid.org/arm-immediate-value-encoding/):
+
+- Per-post CSS and JavaScript, written in separate files
+
+- Embed HTML partials at the end of posts, so that you don't have to embed HTML or SVGs in your Markdown
+
+- Configurable per-post Handlebars layouts
+
+- Arbitrary JSON data for each post, which can be used by the JavaScript or the layout
+
+Also has some other more common features:
+
+- Write in GitHub-flavoured Markdown, with fenced code blocks and decent syntax highlighting
+
+- Sass and autoprefixer for CSS generation
+
+- CSS minified then embedded into the HTML, to reduce render time
+
+- Depends only on Node, with Node scripts for build, local serve, and deploy
 
 ## Usage
 
@@ -11,3 +29,10 @@ Better than Medium.
 
 1. `npm config set alisdair.mcdiarmid.org:server user@rsynchost:path-with-trailing-slash/`
 2. `npm run deploy`
+
+## Todo
+
+- [ ] Add script to generate new posts
+- [ ] Add tests for per-post JavaScript, refactoring the ARM post first
+- [ ] Split build.js into multiple files and refactor
+- [ ] Investigate releasing some of the transforms as metalsmith plugin modules
