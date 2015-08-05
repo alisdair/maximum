@@ -7,14 +7,14 @@
 
   <nav class="posts-index" role="navigation">
     {{#each collections.posts}}
-      <a href="{{data.permalink}}" class="post-link">
+      <a href="{{permalink}}" class="post-link">
         <article class="pad">
           <header>
-            <time datetime="{{data.date}}">{{moment date 'Do MMMM YYYY'}}</time>
-            <h1>{{data.title}}</h1>
+            <time datetime="{{date}}">{{moment date 'Do MMMM YYYY'}}</time>
+            <h1>{{title}}</h1>
           </header>
 
-          <p>{{data.excerpt}}</p>
+          <p>{{excerpt}}</p>
         </article>
       </a>
     {{/each}}
