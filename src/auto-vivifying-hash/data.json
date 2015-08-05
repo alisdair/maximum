@@ -1,5 +1,5 @@
 {
   "date": "2012-09-01",
   "title": "Auto-vivifying hash",
-  "description": "How to define the Ruby hash default value. Allows you to write cleaner, more confident Ruby code. Ideal when working with unstructured data."
+  "excerpt": "How to define the Ruby hash default value. Allows you to write cleaner, more confident Ruby code. Ideal when working with unstructured data."
 }

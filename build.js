@@ -13,6 +13,7 @@ var handlebars = require('handlebars');
 var moment = require('moment');
 var match = require('multimatch');
 var autoprefixer = require('metalsmith-autoprefixer');
+var feed = require('metalsmith-feed');
 
 handlebars.registerHelper('moment', function(date, format) {
     return moment(date).format(format);
@@ -71,8 +72,7 @@ Metalsmith(__dirname)
   .metadata({
     site: {
       title: 'Alisdair McDiarmid',
-      url: 'http://alisdair.mcdiarmid.org',
-      author: 'Alisdair McDiarmid'
+      url: 'http://alisdair.mcdiarmid.org'
     }
   })
   .use(sass({
@@ -86,7 +86,7 @@ Metalsmith(__dirname)
   }))
   .use(each(function(file, filename) {
     if (path.basename(filename) === 'data.json') {
-      file.data.permalink = path.dirname(filename);
+      file.data.permalink = path.dirname(filename) + '/';
     }
   }))
   .use(injectData({
@@ -99,6 +99,10 @@ Metalsmith(__dirname)
       sortBy: 'date',
       reverse: true
     }
+  }))
+  .use(feed({
+    destination: 'feed.rss',
+    collection: 'posts'
   }))
   .use(markdown({
     gfm: true,

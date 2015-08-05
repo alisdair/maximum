@@ -1,6 +1,6 @@
 {
   "date": "2013-03-05",
   "title": "Tree traversal in CoffeeScript",
-  "description": "Processing tree-structured data using functional programming in CoffeeScript. A detailed explanation and translation of Tom Moertel's original Haskell."
+  "excerpt": "Processing tree-structured data using functional programming in CoffeeScript. A detailed explanation and translation of Tom Moertel's original Haskell."
 }
 

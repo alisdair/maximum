@@ -9,6 +9,7 @@
     "metalsmith-autoprefixer": "^1.1.0",
     "metalsmith-collections": "^0.7.0",
     "metalsmith-each": "^0.1.1",
+    "metalsmith-feed": "0.0.6",
     "metalsmith-ignore": "^0.1.2",
     "metalsmith-json": "^0.1.2",
     "metalsmith-layouts": "^1.2.1",

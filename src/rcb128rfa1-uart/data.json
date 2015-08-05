@@ -1,5 +1,5 @@
 {
   "date": "2011-11-04",
   "title": "RCB128RFA1 UART, or Why I Hate Data Sheets",
-  "description": "Tutorial with free sample code explaining how to use the built-in UART of the Dresden Elektronik RCB128RFA1 microcontroller board for serial communications."
+  "excerpt": "Tutorial with free sample code explaining how to use the built-in UART of the Dresden Elektronik RCB128RFA1 microcontroller board for serial communications."
 }
