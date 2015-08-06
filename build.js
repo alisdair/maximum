@@ -15,20 +15,44 @@ var ignore = require('metalsmith-ignore');
 require('./lib/moment-helper');
 
 Metalsmith(__dirname)
+  // Site metadata, used for RSS feed
   .metadata(require('./config/metadata'))
+
+  // CSS preprocessing
   .use(sass())
   .use(autoprefixer())
+
+  // Parse all JSON files, storing the object tree in the "data" key
   .use(json({ key: 'data' }))
+
+  // Inject the parsed JSON from each "data.json" into its "index.md"
   .use(inject(require('./config/inject')))
+
+  // Add permalinks based on the directory name
   .use(permalink(require('./config/permalink')))
+
+  // Build a collection of posts for the feed and index
   .use(collections(require('./config/collections')))
+
+  // RSS feed
   .use(feed(require('./config/feed')))
+
+  // Process "*.md" to "*.html"
   .use(markdown(require('./config/markdown')))
+
+  // Set up partials for Handlebars
   .use(partials({ directory: 'partials' }))
+
+  // Map filenames to file references to allow embedding HTML and CSS
   .use(embed(require('./config/embed-appends')))
   .use(embed(require('./config/embed-css')))
+
+  // Wrap all HTML files in appropriate layout
   .use(layouts(require('./config/layouts')))
+
+  // Remove support files from the build output
   .use(ignore([ 'sass/*', '*/data.json' ]))
+
   .build(function(err, files) {
     if (err) throw err;
   });
