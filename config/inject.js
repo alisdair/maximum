@@ -1,6 +1,8 @@
-// Inject data from the post data.json file into the sibling Markdown files
+// Inject data from the "data.json" file into the "index.md" file in the same
+// directory. This includes metadata and other supporting data for the posts.
+
 module.exports = {
   defaults: { stylesheets: ['../sass/site.css'] },
   from: ['data.json', '*/data.json'],
-  to: ['data.json', '*.md']
+  to: ['index.md']
 };
