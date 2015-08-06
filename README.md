@@ -1,5 +1,7 @@
 # Maximum
 
+[![Build Status](https://travis-ci.org/alisdair/maximum.svg)](https://travis-ci.org/alisdair/maximum)
+
 Software for building the weblog I want to write. Supports writing [posts which include interactive demos with SVGs](http://alisdair.mcdiarmid.org/arm-immediate-value-encoding/):
 
 - Per-post CSS and JavaScript, written in separate files
