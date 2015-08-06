@@ -1,5 +1,17 @@
 sudo: false
+
 language: node_js
+
 node_js:
   - "node"
-  - "iojs"
+
+cache:
+  directories:
+    - node_modules
+
+before_install:
+  - "npm config set spin false"
+  - "npm install -g npm@^2"
+
+script:
+  - npm test
