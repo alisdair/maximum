@@ -4,7 +4,7 @@ Software for building the weblog I want to write. Supports writing [posts which 
 
 - Per-post CSS and JavaScript, written in separate files
 
-- Embed HTML partials at the end of posts, so that you don't have to embed HTML or SVGs in your Markdown
+- Embed partials at the end of posts
 
 - Configurable per-post Handlebars layouts
 
@@ -34,5 +34,5 @@ Also has some other more common features:
 
 - [ ] Add script to generate new posts
 - [ ] Add tests for per-post JavaScript, refactoring the ARM post first
-- [ ] Split build.js into multiple files and refactor
+- [x] Split build.js into multiple files and refactor
 - [ ] Investigate releasing some of the transforms as metalsmith plugin modules
