@@ -53,6 +53,6 @@ Metalsmith(__dirname)
   // Remove support files from the build output
   .use(ignore([ 'sass/*', '*/data.json' ]))
 
-  .build(function(err, files) {
+  .build(function(err) {
     if (err) throw err;
   });

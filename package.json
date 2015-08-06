@@ -24,10 +24,14 @@
     "server": "user@rsynchost.domain.com:path-with-trailing-slash/"
   },
   "scripts": {
+    "test": "eslint build.js config/ lib/",
     "build": "node --harmony_generators build.js",
     "serve": "http-server build -p 5400 -o -c-1",
     "start": "npm run build && npm run serve",
     "deploy": "npm run build && npm run rsync",
     "rsync": "rsync -rtz --delete build/ $npm_package_config_server"
+  },
+  "devDependencies": {
+    "eslint": "^1.0.0"
   }
 }
