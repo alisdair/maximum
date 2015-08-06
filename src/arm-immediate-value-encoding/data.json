@@ -2,6 +2,6 @@
   "date": "2014-01-12",
   "title": "ARM immediate value encoding",
   "excerpt": "ARM instructions use 12 bits to encode a 32-bit immediate value, using a 4-bit rotate and 8-bit constant. This is a great idea.",
-  "append": ["_demo.html", "decoded.svg", "encoded.svg", "_script.html"],
-  "stylesheet": "style.css"
+  "appends": ["_demo.html", "decoded.svg", "encoded.svg", "_script.html"],
+  "stylesheets": ["../sass/site.css", "style.css"]
 }

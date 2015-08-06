@@ -1,4 +1,5 @@
 module.exports = {
-  from: 'sass/site.css',
-  to: ['*.html', '*/*.html']
+  from: 'stylesheets',
+  to: 'stylesheets',
+  targets: ['*.html', '*/*.html']
 };
