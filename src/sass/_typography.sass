@@ -10,12 +10,14 @@ code
   font-size: 12px
   line-height: 1.5
 
-p code
-  font-size: 1em
+p code, ul code
   background: $highlight-yellow
 
 h1, h2, h3, h4, h5, h6, .header--banner
   +heading-font
+
+  code
+    font-size: 1em
 
 h1
   line-height: 1.2
