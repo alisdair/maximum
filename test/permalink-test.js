@@ -14,6 +14,16 @@ describe('permalink', function() {
     expect(html.permalink).to.equal('/one/two/three/');
   });
 
+  it('adds path as well as permalink', function() {
+    var html = { };
+    var files = {
+      'one/two/three/test.html': html
+    };
+    permalink({ files: ['**/*.html'] })(files);
+    expect(html.permalink).to.equal('/one/two/three/');
+    expect(html.path).to.equal('/one/two/three/');
+  });
+
   it('defaults to looking for files matching "*/index.*"', function() {
     var txt = { };
     var other = { };
