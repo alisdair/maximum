@@ -5,6 +5,7 @@ var json = require('metalsmith-json');
 var inject = require('./lib/inject');
 var permalink = require('./lib/permalink');
 var collections = require('metalsmith-collections');
+var unlisted = require('metalsmith-unlisted');
 var feed = require('metalsmith-feed');
 var markdown = require('metalsmith-markdown');
 var partials = require('metalsmith-register-partials');
@@ -33,6 +34,9 @@ Metalsmith(__dirname)
 
   // Build a collection of posts for the feed and index
   .use(collections(require('./config/collections')))
+
+  // Remove unlisted posts from the index and RSS feed
+  .use(unlisted())
 
   // RSS feed
   .use(feed(require('./config/feed')))
