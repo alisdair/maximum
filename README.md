@@ -36,5 +36,4 @@ Also has some other more common features:
 
 - [ ] Add script to generate new posts
 - [ ] Add tests for per-post JavaScript, refactoring the ARM post first
-- [x] Split build.js into multiple files and refactor
 - [ ] Investigate releasing some of the transforms as metalsmith plugin modules
