@@ -1,6 +1,5 @@
 {
   "date": "2015-08-08",
   "title": "Simple Node.js tests with assert and mocha",
-  "description": "How to test your Node modules with the built-in assert module, for easier to read tests and fun times.",
-  "unlisted": true
+  "description": "How to test your Node modules with the built-in assert module, for easier to read tests and fun times."
 }

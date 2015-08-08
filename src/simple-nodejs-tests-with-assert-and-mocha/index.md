@@ -94,7 +94,7 @@ I haven't found any simpler, better test runner than [mocha][mocha]. It automati
 
 ## More test assertions
 
-There are [a few more useful test assertions provided by the `assert` module][assert-assertions].
+There are [a few more useful test assertions provided by the assert module][assert-assertions].
 
 [assert-assertions]: http://nodejs.org/api/all.html#all_assert
 
@@ -275,7 +275,9 @@ It works!
   1 passing (106ms)
 ```
 
-**Careful**: if you accept the `done` parameter in a test which returns a promise, mocha will explode. Here, look:
+We don't need to call the `done` function to let mocha know that the test is complete. Returning a promise allows mocha to wait for it to resolve (or reject), and so we can write beautiful promise-style code without worrying about callbacks. Yay!
+
+**Careful**: `done` and promises don't mix. If you accept the `done` parameter in a test which returns a promise, and don't call `done` at the end of your promise chain, mocha will explode. Here, look:
 
 ```javascript
   it('eventually returns the results', function(done) { // <- we accept the done parameter
