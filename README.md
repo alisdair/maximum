@@ -27,13 +27,13 @@ Also has some other more common features:
 1. `npm install`
 2. `npm start`
 
+## New Post
+
+1. `npm run new`
+2. Edit the generated data.json and index.md files
+3. Add other supporting files in the same directory as required
+
 ## Deployment
 
 1. `npm config set alisdair.mcdiarmid.org:server user@rsynchost:path-with-trailing-slash/`
 2. `npm run deploy`
-
-## Todo
-
-- [ ] Add script to generate new posts
-- [ ] Add tests for per-post JavaScript, refactoring the ARM post first
-- [ ] Investigate releasing some of the transforms as metalsmith plugin modules
