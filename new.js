@@ -1,13 +1,17 @@
+var Promise = require('bluebird');
 var inquirer = require('inquirer');
 var slug = require('slug');
 var moment = require('moment');
 var fs = require('fs');
 var path = require('path');
+var chalk = require('chalk');
+
+Promise.promisifyAll(fs);
 
 slug.defaults.mode = 'rfc3986';
 
 function permalinkPath(permalink) {
-  return path.join(__dirname, 'src', permalink);
+  return path.join('src', permalink);
 }
 
 var questions = [
@@ -72,25 +76,23 @@ inquirer.prompt(questions, function(answers) {
   }
 
   var permalink = permalinkPath(answers.permalink);
-  fs.mkdir(permalink, function(err) {
-    if (err) throw err;
+  var datafile = path.join(permalink, 'data.json');
+  var indexfile = path.join(permalink, 'index.md');
 
-    var datafile = path.join(permalink, 'data.json');
+  fs.mkdirAsync(permalink).then(function() {
     var json = JSON.stringify(data, null, 2) + '\n';
 
-    fs.writeFile(datafile, json, function(err) {
-      if (err) throw err;
+    return fs.writeFileAsync(datafile, json);
+  }).then(function() {
+    var content = 'Your post goes here!\n';
 
-      var indexfile = path.join(permalink, 'index.md');
-      var content = 'Your post goes here!\n';
-
-      fs.writeFile(indexfile, content, function(err) {
-        if (err) throw err;
-
-        console.log('\nAll done!\n');
-        console.log('Data: ' + datafile);
-        console.log('Post: ' + indexfile);
-      });
-    });
+    return fs.writeFileAsync(indexfile, content);
+  }).then(function() {
+    console.log(chalk.green('\nAll done!\n'));
+    console.log('Data:', chalk.yellow(datafile));
+    console.log('Post:', chalk.yellow(indexfile), '\n');
+  }).error(function(e) {
+    console.error(chalk.red('ERROR: '), 'Failed to create the new post:',
+                  e.message);
   });
 });

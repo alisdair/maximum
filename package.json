@@ -34,7 +34,9 @@
     "rsync": "rsync -rtz --delete build/ $npm_package_config_server"
   },
   "devDependencies": {
+    "bluebird": "^2.9.34",
     "chai": "^3.2.0",
+    "chalk": "^1.1.0",
     "eslint": "^1.0.0",
     "inquirer": "^0.9.0",
     "mocha": "^2.2.5",
