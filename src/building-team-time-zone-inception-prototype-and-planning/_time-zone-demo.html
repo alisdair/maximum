@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8">
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2015 by alisdair (http://jsbin.com/jumugu/9/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+  <title>JS Bin</title>
+
+<style id="jsbin-css">
+body {
+  color: #222;
+  background: white;
+}
+
+h2 {
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.timezone-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.timezone-column {
+  -webkit-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background: #eeeeee;
+  margin: 0 10px;
+}
+.timezone-column.timezone-column--empty {
+  margin: 0;
+}
+
+.timezone-column__item {
+  min-height: 30px;
+  min-width: 100px;
+  margin: 10px;
+}
+
+</style>
+</head>
+<body>
+  <div id="container">
+    <div class="timezone-container">
+      <div class="timezone-column" data-timezone-start"-0700" data-timezone-end"-0601">
+        <h2>-07:00 PDT</h2>
+        <div class="timezone-column__item">
+          Dave
+        </div>
+        <div class="timezone-column__item">
+          Colin
+        </div>
+        <div class="timezone-column__item">
+          Ronnie
+        </div>
+        <div class="timezone-column__item">
+          Sara
+        </div>
+      </div>
+      <div class="timezone-column" data-timezone-start"-0600" data-timezone-end"-0501">
+        <h2>-06:00 MDT</h2>
+        <div class="timezone-column__item">
+          Qi
+        </div>
+      </div>
+      <div class="timezone-column timezone-column--empty" data-timezone-start"-0400" data-timezone-end"-0401">
+      </div>
+      <div class="timezone-column" data-timezone-start"-0400" data-timezone-end"-0301">
+        <h2>-04:00 EDT</h2>
+        <div class="timezone-column__item">
+          Rodney
+        </div>
+        <div class="timezone-column__item">
+          Chantelle
+        </div>
+        <div class="timezone-column__item">
+          Lavinia
+        </div>
+      </div>
+      <div class="timezone-column" data-timezone-start"-0300" data-timezone-end"-0201">
+        <h2>-03:00 ADT</h2>
+        <div class="timezone-column__item">
+          Marie
+        </div>
+        <h2>-02:30 NDT</h2>
+        <div class="timezone-column__item">
+          Matthew
+        </div>
+      </div>
+      <div class="timezone-column timezone-column--empty" data-timezone-start"-0200" data-timezone-end"-0101">
+      </div>
+      <div class="timezone-column timezone-column--empty" data-timezone-start"-0100" data-timezone-end"-0001">
+      </div>
+      <div class="timezone-column timezone-column--empty" data-timezone-start"+0000" data-timezone-end"+0059">
+      </div>
+      <div class="timezone-column" data-timezone-start"+0100" data-timezone-end"+0159">
+        <h2>+01:00 BST</h2>
+        <div class="timezone-column__item">
+          Jakub
+        </div>
+        <div class="timezone-column__item">
+          Alisdair
+        </div>
+      </div>
+      <div class="timezone-column" data-timezone-start"+0200" data-timezone-end"+0259">
+        <h2>+02:00 CEST</h2>
+        <div class="timezone-column__item">
+          Jamie
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
