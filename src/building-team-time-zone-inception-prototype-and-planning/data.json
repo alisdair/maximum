@@ -1,6 +1,5 @@
 {
   "date": "2015-08-14",
   "title": "Building Team Time Zone, part 1: Inception, Prototype, and Planning",
-  "excerpt": "How I started building an Ember app based on the Slack API",
-  "unlisted": true
+  "excerpt": "How I started building an Ember app to display a time zone board for my Slack friends. Research, prototyping, and next steps."
 }
