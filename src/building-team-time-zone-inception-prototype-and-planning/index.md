@@ -25,7 +25,7 @@ These three tasks seemed fairly independent of each other, but I wanted to be su
 
 ## Using OAuth2 to authenticate web apps
 
-[Slack's API supports OAuth 2][slack-oauth], which is a fairly common standard, and is also used by GitHub, Google, Facebook, and many others. I expected this to be good news. Unfortunately, [OAuth2 is a massive specification], and even with good documentation it's difficult to understand.
+[Slack's API supports OAuth 2][slack-oauth], which is a fairly common standard, and is also used by GitHub, Google, Facebook, and many others. I expected this to be good news. Unfortunately, [OAuth2 is a massive specification][oauth2], and even with good documentation it's difficult to understand.
 
 [slack-oauth]: https://api.slack.com/docs/oauth
 [oauth2]: http://tools.ietf.org/html/draft-ietf-oauth-v2-31
@@ -149,9 +149,9 @@ The flex layout still adds space between these columns, which allows the gaps to
 
 After a few evenings of investigation, I had a pretty solid idea about what I needed to do to make this happen. I had a working prototype of the user interface I wanted, although I needed to write some simple code to transform user information into the correct HTML structure. To get the user information, I needed to build a custom Ember Data adapter and serializer for the Slack API. And to access the API, I would need to install and customise torii, and build a tiny authorisation server.
 
-This article is part one of a five-part series on building Team Time Zone:
-
 ---
+
+This article is part one of a five-part series on building Team Time Zone:
 
 1. [Inception, Prototype, and Planning][part-1]
 2. Ember Data and the Slack API
