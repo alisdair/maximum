@@ -226,11 +226,13 @@ But it worked!
 
 This was a significant first step. I now had a simple Ember Data stack which worked with the Slack API, along with a simple local implementation of the API for testing and development work.  There was plenty of refactoring and polishing to do, but for now I was ready to move on to the exciting stuff: building the user interface.
 
-This article is part one of a five-part series on building Team Time Zone:
+---
+
+This article is part two of a five-part series on building Team Time Zone:
 
 1. [Inception, Prototype, and Planning][part-1]
 2. [Ember Data and the Slack API][part-2]
-3. User Interface Implementation
+3. Creating the User Interface
 4. Authenticating with Slack
 5. Deployment, Release, and Future
 

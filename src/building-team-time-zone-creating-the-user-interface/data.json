@@ -1,0 +1,7 @@
+{
+  "date": "2015-08-21",
+  "title": "Building Team Time Zone, part 3: Creating the User Interface",
+  "excerpt": "Starting with a rough implementation and slowly refining into a neat design",
+  "unlisted": true,
+  "stylesheets": ["../sass/site.css", "loading.css"]
+}

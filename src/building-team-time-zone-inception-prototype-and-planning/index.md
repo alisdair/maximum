@@ -151,9 +151,11 @@ After a few evenings of investigation, I had a pretty solid idea about what I ne
 
 This article is part one of a five-part series on building Team Time Zone:
 
+---
+
 1. [Inception, Prototype, and Planning][part-1]
 2. Ember Data and the Slack API
-3. User Interface Implementation
+3. Creating the User Interface
 4. Authenticating with Slack
 5. Deployment, Release, and Future
 
