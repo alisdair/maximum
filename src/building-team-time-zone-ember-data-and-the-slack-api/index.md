@@ -48,7 +48,7 @@ For now, the body of this API call is really simple. It does one of three things
 
 You might be thinking "*users in my database? what database?*". That would be a reasonable question.
 
-What distinguishes Mirage from other API mocking tools its simple in-memory JSON object store. This is just a list of data types, each with a tiny REST-like API overlaid on top of it, allowing you to `find`, `insert`, `update`, and `delete` them.
+What distinguishes Mirage from other API mocking tools like Pretender is its simple in-memory JSON object store. This is just a list of data types, each with a tiny REST-like API overlaid on top of it, allowing you to `find`, `insert`, `update`, and `delete` them.
 
 But how do we get useful data into the Mirage database? In development mode, this is normally done with a fixed *scenario*: a JavaScript file which builds and inserts a set number of records for each of your API data stores. In test mode, you can create different scenarios for different acceptance tests, by building only the data you need to test with.
 
@@ -85,7 +85,7 @@ If the property is a function, it's called at build time with an auto-incrementi
 server.createList('user', 3);
 ```
 
-This will build users with usernames `name-0`, `name-1`, and `name-2`.
+This will build users with names `user-0`, `user-1`, and `user-2`.
 
 Each property can be overridden as necessary. So if I wanted a user with a particularly long name, I could write
 
@@ -150,9 +150,7 @@ So when I do test driven development, I don't follow red-green-refactor religiou
 
 ## Test driven doesn't mean test first
 
-Test driven development isn't really about test coverage, or a strict way of decreasing code defects. It's about improving the design of your software.
-
-But I think the design of this method is just fine! It's collaborating with a couple of other methods, each of which has a good name and well-defined responsibilities. And I can say that because I didn't define either of them: they're built in to the `DS.Adapter` specification.
+Test driven development isn't really about test coverage, or even decreasing code defects. It's about improving the design of your software. Here's how I go about using tests to improve design.
 
 When I wrote this little adapter, I didn't write the test for `findAll` first. Instead, I wrote an implementation that didn't do any real work. Here's what the code looked like:
 
@@ -164,9 +162,9 @@ findAll: function(store, type) {
 },
 ```
 
-This was the first code I wrote, I didn't write a test for it first, and it worked perfectly. It's continuing to work now. I've never needed to change it.
+This was the first code I wrote, I didn't write a test beforehand, and yet it works perfectly. I've never needed to change it.
 
-It works because all it does is delegate the responsibility of its job to two other methods, which are doing much more complex tasks. Once I'd written these two lines of code, I was sure it was the right approach for this method, so I wrote a test. The test used a mock for the (unwritten) ajax method, but depended on the implementation of `buildURL`. Here it is:
+It works because all it does is delegate its responsibility to two other methods, which are doing much more complex tasks. Once I'd written these two lines of code, I was sure it was the right approach for this method, so I wrote a test. The test used a mock for the (unwritten) `ajax` method, but depended on the implementation of `buildURL`. Here it is:
 
 ```javascript
 test('findAll with mocked ajax method', function(assert) {
@@ -184,7 +182,7 @@ test('findAll with mocked ajax method', function(assert) {
 
 This test fails, but I only knew how to write it because I'd already designed and written my method. So it's not test-first, it's not red-green-refactor, but it is test driven development. Or at least it's my version of it.
 
-To make this test fail, I need to implement buildURL. And now is the point at which I fall back into the normal testing loop. In this case, I wanted the test to pass as quickly as possible, so I wrote a really simple stub implementation of buildURL:
+To make this test fail, I need to implement `buildURL`. And now is the point at which I fall back into the normal testing loop. In this case, I wanted the test to pass as quickly as possible, so I wrote a really simple stub implementation of `buildURL`:
 
 ```javascript
 buildURL: function(modelName, suffix) {
@@ -192,7 +190,7 @@ buildURL: function(modelName, suffix) {
 }
 ```
 
-I knew when I wrote it that this was not what [the real buildURL method would look like][buildURL], but it let my test pass for now. And having done this, I had a clear direction to go in: I needed to implement `buildURL`, and then I needed to implement and test `ajax`.
+I knew when I wrote it that this was not what [the real method would look like][buildURL], but it let my test pass for now. And having done this, I had a clear direction to go in: I needed to write `buildURL` properly, and then I needed to implement and test `ajax`.
 
 [buildURL]: https://github.com/alisdair/team-time-zone/blob/master/app/adapters/slack.js#L26-L46
 
