@@ -12,7 +12,11 @@ Sometimes the only way to write good code is to write bad code, and then fix it.
 
 ## Making a mess
 
-Once you're experienced enough to have an opinion on what bad code is, purposefully writing bad code can be difficult. I find it's best to make it self-consciously awful, riddled with FIXMEs, avoiding abstractions. To give you an example of what I mean, here's the template code for my first version of the Team Time Zone UI:
+Writing bad code on purpose can be hard to do. I find it easiest when I think of it as a first draft, or a sketch.
+
+Like a sketch, it's important to move quickly. Jot down some `FIXME` comments instead of trying to implement difficult features. Write the thing that comes to mind, don't try to simplify or make it efficient.
+
+My first cut of the UI was pretty rough. I just threw all the functionality into one giant messy component, which barely worked. Here's the template:
 
 ```handlebars
 {{#each columns as |column|}}
