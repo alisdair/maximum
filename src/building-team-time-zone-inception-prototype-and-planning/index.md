@@ -148,20 +148,3 @@ The flex layout still adds space between these columns, which allows the gaps to
 ## Next steps
 
 After a few evenings of investigation, I had a pretty solid idea about what I needed to do to make this happen. I had a working prototype of the user interface I wanted, although I needed to write some simple code to transform user information into the correct HTML structure. To get the user information, I needed to build a custom Ember Data adapter and serializer for the Slack API. And to access the API, I would need to install and customise torii, and build a tiny authorisation server.
-
----
-
-This article is part one of a five-part series on building Team Time Zone:
-
-1. [Inception, Prototype, and Planning][part-1]
-2. Ember Data and the Slack API
-3. Creating the User Interface
-4. Authenticating with Slack
-5. Deployment, Release, and Future
-
-[part-1]: /building-team-time-zone-inception-prototype-and-planning/
-
-[Follow me on Twitter][twitter] or [subscribe to the RSS feed][feed] to catch the next article!
-
-[twitter]: https://twitter.com/alisdair
-[feed]: /feed.rss

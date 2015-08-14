@@ -2,7 +2,9 @@ This is part three of a five part series on building [Team Time Zone][team-time-
 
 [team-time-zone]: https://teamtime.zone/
 
-Having [built out a test version of the Slack API, and an Ember Data adapter to access it][part-2], the next step was to take the user information and present it. I had a pretty solid idea of how to go about this, but I just couldn't get started.
+Having [built out a test version of the Slack API, and an Ember Data adapter to access it][ember-slack], the next step was to take the user information and present it. I had a pretty solid idea of how to go about this, but I just couldn't get started.
+
+[ember-slack]: /building-team-time-zone-ember-data-and-the-slack-api/
 
 This often happens to me when I'm working on projects. I get stuck right at the beginning, worrying about getting the implementation badly wrong and having to throw it all away. I spend a long time trying to get the design right, and the longer I try to hold it all in my head, the less certain I get that it even makes sense.
 
@@ -213,22 +215,3 @@ Once that worked, I [added a timer to update the clock every second][update-time
 After a few more evenings of playing with CSS gradients and animations, I eventually ran out of things to do. The UI worked, my code was well designed, I had great test coverage.
 
 There was nothing else for it. Time to bite the bullet and try to implement authentication.
-
----
-
-This article is part three of a five-part series on building Team Time Zone:
-
-1. [Inception, Prototype, and Planning][part-1]
-2. [Ember Data and the Slack API][part-2]
-3. [Creating the User Interface][part-3]
-4. Authenticating with Slack
-5. Deployment, Release, and Future
-
-[part-1]: /building-team-time-zone-inception-prototype-and-planning/
-[part-2]: /building-team-time-zone-ember-data-and-the-slack-api/
-[part-3]: /building-team-time-zone-creating-the-user-interface/
-
-[Follow me on Twitter][twitter] or [subscribe to the RSS feed][feed] to catch the next article!
-
-[twitter]: https://twitter.com/alisdair
-[feed]: /feed.rss

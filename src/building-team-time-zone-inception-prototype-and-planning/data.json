@@ -1,5 +1,6 @@
 {
   "date": "2015-08-14",
   "title": "Building Team Time Zone, part 1: Inception, Prototype, and Planning",
+  "appends": ["_footer.html"],
   "excerpt": "How I started building an Ember app to display a time zone board for my Slack friends. Research, prototyping, and next steps."
 }

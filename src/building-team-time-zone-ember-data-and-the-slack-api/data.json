@@ -2,5 +2,6 @@
   "date": "2015-08-18",
   "title": "Building Team Time Zone, part 2: Ember Data and the Slack API",
   "excerpt": "Using Mirage to build an Ember test-first, creating a custom Ember Data adapter and serializer for Slack's API, and a rant about TDD.",
+  "appends": ["_footer.html"],
   "unlisted": true
 }
