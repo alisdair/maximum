@@ -119,7 +119,7 @@ There's a problem with this, which is that [time zones are awful][time-zones-com
 
 ### Component hierarchy
 
-Because there are multiple different times within one hour, we should group people in those time zones together. That means one more component, giving us the final hierarchy:
+Because there can be multiple different time zones within one hour, that means that there can be several times in one column. So we need to group users in a column by their time zone. That means one more component, giving us the final hierarchy:
 
 1. Collection
 2. Column
