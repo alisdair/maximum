@@ -1,4 +1,4 @@
-var Promise = require('bluebird');
+var RSVP = require('rsvp');
 var inquirer = require('inquirer');
 var slug = require('slug');
 var moment = require('moment');
@@ -6,7 +6,8 @@ var fs = require('fs');
 var path = require('path');
 var chalk = require('chalk');
 
-Promise.promisifyAll(fs);
+var mkdir = RSVP.denodeify(fs.mkdir);
+var writeFile = RSVP.denodeify(fs.writeFile);
 
 slug.defaults.mode = 'rfc3986';
 
@@ -79,19 +80,19 @@ inquirer.prompt(questions, function(answers) {
   var datafile = path.join(permalink, 'data.json');
   var indexfile = path.join(permalink, 'index.md');
 
-  fs.mkdirAsync(permalink).then(function() {
+  mkdir(permalink).then(function() {
     var json = JSON.stringify(data, null, 2) + '\n';
 
-    return fs.writeFileAsync(datafile, json);
+    return writeFile(datafile, json);
   }).then(function() {
     var content = 'Your post goes here!\n';
 
-    return fs.writeFileAsync(indexfile, content);
+    return writeFile(indexfile, content);
   }).then(function() {
     console.log(chalk.green('\nAll done!\n'));
     console.log('Data:', chalk.yellow(datafile));
     console.log('Post:', chalk.yellow(indexfile), '\n');
-  }).error(function(e) {
+  }).catch(function(e) {
     console.error(chalk.red('ERROR: '), 'Failed to create the new post:',
                   e.message);
   });
