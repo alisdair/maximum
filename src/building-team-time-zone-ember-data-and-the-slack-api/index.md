@@ -6,7 +6,7 @@ After [some initial prototyping and planning][inception], the next step was inte
 
 [inception]: /building-team-time-zone-inception-planning-and-prototyping/
 
-Ember's testing story is really great. There are incredible tools provided by the community for development and test against JSON APIs. So I decided to build my Ember Data adapter code test-first, without even trying to hit the Slack API itself at all.
+Ember's testing support is really great. There are incredible tools provided by the community that make testing your app against a JSON API really fun. So I decided to build my Ember Data adapter code test-first, without even trying to hit the Slack API itself at all.
 
 ## Mirage: building an Ember app without an API
 
@@ -14,7 +14,11 @@ Ember's testing story is really great. There are incredible tools provided by th
 
 [mirage]: http://www.ember-cli-mirage.com
 
-Mirage works by intercepting AJAX requests from your Ember app in development and test mode. When you're building an app where the API isn't ready yet, you can write out a really simple stub with Mirage, and get on with the rest of your work. Then when the API team finishes their work, just turn off Mirage and hook up to your real data source.
+Just like a real API, Mirage responds to AJAX requests from your Ember app, returning JSON. The difference is that [Mirage uses Pretender][pretender] to catch the requests before they leave the browser.
+
+[pretender]: https://github.com/pretenderjs/pretender
+
+So when you're building an app where the API isn't ready yet, you can write out a really simple stub with Mirage, and get on with the rest of your work. Then when the API is available, just turn off Mirage and hook up to your real data source.
 
 Building a mock API in Mirage is really simple. Here's the first simple Mirage config I wrote:
 
