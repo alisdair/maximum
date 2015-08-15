@@ -1,0 +1,7 @@
+{
+  "date": "2015-08-14",
+  "title": "Building Team Time Zone, part 4: Authenticating with Slack",
+  "excerpt": "How to use ember-simple-auth and torii with a custom authenticator to securely establish a Slack API token.",
+  "appends": ["_footer.html"],
+  "unlisted": true
+}
