@@ -26,6 +26,7 @@ Also has some other more common features:
 
 1. `npm install`
 2. `npm start`
+3. Optionally, in another terminal, `npm run watch` to rebuild when files change
 
 ## New Post
 
