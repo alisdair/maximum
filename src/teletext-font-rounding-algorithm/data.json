@@ -1,0 +1,7 @@
+{
+  "date": "2015-09-16",
+  "title": "Teletext Font Rounding Algorithm",
+  "excerpt": "",
+  "appends": ["_demo.html"],
+  "stylesheets": ["../sass/site.css", "style.css"]
+}
