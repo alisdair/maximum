@@ -1,7 +1,7 @@
 
 ---
 
-This article is part one of a five-part series on building Team Time Zone:
+This article is part of a five-part series on building Team Time Zone:
 
 1. [Inception, Prototype, and Planning][part-1]
 2. [Ember Data and the Slack API][part-2]
