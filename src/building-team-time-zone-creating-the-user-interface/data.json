@@ -2,7 +2,6 @@
   "date": "2015-08-19",
   "title": "Building Team Time Zone, part 3: Creating the User Interface",
   "excerpt": "UI design is impossible to get right first time. So I built a rough implementation, and refined it until it worked well.",
-  "unlisted": true,
   "appends": ["_footer.html"],
   "stylesheets": ["../sass/site.css", "loading.css"]
 }
