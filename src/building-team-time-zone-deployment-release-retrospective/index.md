@@ -118,4 +118,6 @@ If you're building Ember apps against JSON APIs, and you're not using mirage to 
 
 torii has also been really valuable, as has simple-auth, and of course Ember itself. My very next project is to try to contribute something back to at least one of these projects.
 
+Of course, this would not have been possible without Slack. For all my kvetching about it being a bit weird, the Slack web API is amazing. I hope to see many more little apps like mine using it to do cool stuff.
+
 And finally, eternal thanks to my partner Vic, who put up with me frowning at my MacBook and typing furiously when I should have been feeding the cats or doing the dishes. I'm just about to do both right now, I promise.
