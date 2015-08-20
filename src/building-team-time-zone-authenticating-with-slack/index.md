@@ -2,12 +2,9 @@ This is part four of a five part series on building [Team Time Zone][team-time-z
 
 [team-time-zone]: https://teamtime.zone/
 
-After [creating and refining the user interface with a test version of the Slack API][part-3], all that remained was to hook up to the real data source. Right at the start of the project, I had [planned how this was going to happen][part-1]. I [implemented an Ember Data adapter for the API][part-2], and I would use [the torii authentication framework][torii] to create the API token.
+After [creating and refining the user interface with a test version of the Slack API][part-3], all that remained was to hook up to the real data source. And getting real data requires authentication and authorization.
 
-[part-1]: /building-team-time-zone-inception-prototype-and-planning/
-[part-2]: /building-team-time-zone-ember-data-and-the-slack-api/
-[part-3]: /building-team-time-zone-inception-creating-the-user-interface/
-[torii]: https://github.com/Vestorly/torii
+[part-3]: /building-team-time-zone-creating-the-user-interface/
 
 ## Authentication and authorization in Ember
 
@@ -17,7 +14,9 @@ One of the most popular Ember add-ons is [ember-simple-auth][ember-simple-auth].
 
 The in-browser **session** is used to store state about the current user, notably including any tokens required to communicate with the API. In Team Time Zone, I also have a single (easter egg!) user setting, which I also use the session to keep track of.
 
-**Authentication** is establishing your identity with a service provider. In some apps, this means logging in with a user name and password. In our case, it's the process of establishing the API token using the OAuth2 protocol ([described in more detail in an earlier post][part-2]).
+**Authentication** is establishing your identity with a service provider. In some apps, this means logging in with a user name and password. In our case, it's the process of establishing the API token using the OAuth2 protocol ([described in more detail in an earlier post][planning-oauth2]).
+
+[planning-oauth2]: /building-team-time-zone-inception-prototype-and-planning/#using-oauth2-to-authenticate-web-apps
 
 Once authenticated, simple-auth also helps with **authorization**. In this context, this means using the session state to modify API requests, so that the server can check that you're allowed to access some resource.
 
@@ -30,7 +29,7 @@ In other situations, simple-auth can still be really helpful. The overall framew
 
 ## Sending Slack the API token
 
-Slack's API, [as we have probably already established][part-2], is a little weird. In particular, its authorization mechanism is not standard at all.
+Slack's API, [as we have probably already established][part-2], is a little weird.
 
 Instead of passing the API token in an `Authorization` header, clients are required to pass it as a normal parameter. For `GET` requests, this adding something to your URL, like `/users.list?token=ABC123`, which is nothing like any of the existing simple-auth authorizers.
 
@@ -107,15 +106,6 @@ Slack is notably not on that list, and there's a little more work to be done to 
 7. The web application can now request data directly from the Slack API using this token.
 
 The main contribution of torii to this process is opening the pop-up, redirecting to Slack, and catching the return redirect. This is all encapsulated in a chain of promises, which makes implementing the API-specific parts of this flow really pleasant.
-
-### A cautionary note about torii and OAuth2 security
-
-[The default torii providers][torii-providers] all use a fixed `state` parameter, and they don't check its value in the response. If left in this default state, this exposes your users [to cross-site request forgery attacks][oauth2-csrf], which can lead to their account being compromised. Don't do this.
-
-[torii-providers]: https://github.com/Vestorly/torii/blob/master/lib/torii/providers/
-[oauth2-csrf]: http://tools.ietf.org/html/rfc6749#section-10.12
-
-For the Slack torii adapter, I believe that I've correctly implemented state generation and checking, so Team Time Zone is not subject to these attacks. It's not particularly difficult. Read on for the details.
 
 ### Implementation
 
@@ -233,7 +223,7 @@ Node.js seemed like the perfect choice for this, so I built the server in expres
 
 ## Testing
 
-Unfortunately, I haven't figured out a decent testing strategy for this code, so it's only manually tested. I'd love [suggestions on how to improve that](https://github.com/alisdair/team-time-zone/pulls) if you have them!
+Unfortunately, I haven't figured out a decent testing strategy for any of this code, so it's all only manually tested. I'd love [suggestions on how to improve that](https://github.com/alisdair/team-time-zone/pulls) if you have them!
 
 ## Next steps
 
