@@ -31,6 +31,8 @@ In other situations, simple-auth can still be really helpful. The overall framew
 
 Slack's API, [as we have probably already established][part-2], is a little weird.
 
+[part-2]: /building-team-time-zone-ember-data-and-the-slack-api/
+
 Instead of passing the API token in an `Authorization` header, clients are required to pass it as a normal parameter. For `GET` requests, this adding something to your URL, like `/users.list?token=ABC123`, which is nothing like any of the existing simple-auth authorizers.
 
 But the design of simple-auth still allows this to work. The interface for an authorizer is very flexible. The implementation requires only one method, `authorize`. For example, [here's how the OAuth2 bearer token authorizer works][simple-auth-oauth2-bearer]:
@@ -87,7 +89,9 @@ So that's all there is to authorization! Grab the token out of the session, spla
 
 ## Establishing an API token using torii
 
-[torii][torii] is an Ember add-on which helps with OAuth2 authentication. It supports the first few stages of [the 7-step protocol I described in an earlier post][part-1], and comes with built-in authenticators for Google, Facebook, Twitter, and GitHub.
+[torii][torii] is an Ember add-on which helps with OAuth2 authentication. It supports the first few stages of [the 7-step protocol I described in an earlier post][planning-oauth2], and comes with built-in authenticators for Google, Facebook, Twitter, and GitHub.
+
+[torii]: https://github.com/Vestorly/torii
 
 Slack is notably not on that list, and there's a little more work to be done to support it. As a reminder, here's how we establish an API token:
 
@@ -131,6 +135,8 @@ This uses [a simple random URL-safe string generator that I wrote for this proje
 ### simple-auth-torii Slack authenticator
 
 Of the other three modules, the authenticator was the easiest to get working. [All of the source code is here][slack-authenticator-github], but the interesting part is the `authenticate` method.
+
+[slack-authenticator-github]: https://github.com/alisdair/team-time-zone/blob/master/app/authenticators/slack.js
 
 ```javascript
   authenticate: function(state) {
