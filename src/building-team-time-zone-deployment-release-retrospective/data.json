@@ -2,6 +2,5 @@
   "date": "2015-08-24",
   "title": "Building Team Time Zone, part 5: Deployment, Release, Retrospective",
   "excerpt": "How I deploy using Linode and nginx, production data and performance problems, and thinking about lessons learned.",
-  "appends": ["_footer.html"],
-  "unlisted": true
+  "appends": ["_footer.html"]
 }

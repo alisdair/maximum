@@ -21,7 +21,9 @@ I decided to go with [Linode][linode], as I'm already using it for my [TrackChai
 
 While I wasn't asking for usernames or passwords, the app is sending a Slack access token over the wire. Sending this over plaintext was unacceptably risky, so I needed to cough up for an SSL certificate, and set up the server accordingly.
 
-I don't have any real experience with deployment automation, like Chef, ansible, or Docker. And now wasn't the best time to learn, so my server is a beautiful hand crafted unicorn. I'm fine with this.
+I don't have any real experience with deployment automation, like Chef, ansible, or Docker. And now wasn't the best time to learn, so my server is a beautiful hand crafted unicorn. I'm fine with this, I suppose.
+
+I wish it was easier to deploy small Ember apps which need a supporting back-end API. If you're working on solving this problem already, get in touch, I'd love to help.
 
 ## Deployment: Linode, nginx, Ember, and Node.js
 
@@ -66,7 +68,7 @@ To actually deploy my app, I looked at using [ember-cli-deploy][ember-cli-deploy
 
 [ember-cli-deploy]: https://github.com/ember-cli/ember-cli-deploy
 
-So my deployment task consists of `rsync`ing my build directory up to the server, which I access over ssh. This might not work particularly well for an app with more traffic&mdash;you'd need to be careful to sync all the assets before the index file, for a start&mdash;but it's fine for this project.
+So my deployment task consists of `rsync`ing my build directory up to the server, which I access over ssh. This might not work particularly well for an app with more traffic&mdash;you'd need to be careful to sync all the assets before the index file, for a start&mdash;but it's good enough for now.
 
 ### Deploying the back end: runit
 
@@ -78,7 +80,7 @@ After asking for help on this topic on Twitter, [Craig Morrison recommended Ship
 
 ## Performance
 
-With everthing deployed, I was almost ready to announce the app to my half-dozen non-robot Twitter followers. But first, I wanted to try it out with a larger team. [The Ember.js community Slack](https://ember-community-slackin.herokuapp.com) seemed like a good choice.
+With everything deployed, I was almost ready to announce the app to my half-dozen non-robot Twitter followers. But first, I wanted to try it out with a larger team. [The Ember.js community Slack](https://ember-community-slackin.herokuapp.com) seemed like a good choice.
 
 It turns out that loading over 2,500 users into the app didn't go particularly well. On first attempt, nothing rendered at all. I eventually tracked this down to [Ember.computed.min](http://emberjs.com/api/classes/Ember.computed.html#method_min) completely exploding with over a few hundred items. This was surprising, but again I didn't want to block my release, [so I just patched it out with a manual replacement](https://github.com/alisdair/team-time-zone/commit/7390bc0120c24674863a5829556a0ca209294a65).
 
@@ -88,7 +90,9 @@ These performance problems were before the introduction of [the Glimmer renderin
 
 ## Lessons learned
 
-Team Time Zone took way longer to build than I expected. I'm (purposefully) not tracking user stats, but based on server logs I think around four or five people are using it, including me, so it's not exactly a mega hit. But I still think it was worth doing.
+Team Time Zone took way longer to build than I expected. I'm (purposefully) not tracking user stats, so I don't know if anyone else is using it. If you are using the app, please tweet at me to let me know!
+
+But even if I'm the only user, I still think it was worth doing.
 
 I learned a lot about the internals of Ember Data adapters and serializers, and how simple-auth and torii work. Both of these things are likely to be useful in my day job at some point. I also finally used flexbox in a real application, so I'm almost up to date with CSS from 2012 now.
 
@@ -108,16 +112,32 @@ And something else really important I learned from my friend [Jason Frame](http:
 
 But after talking with him about side projects and coder's block, I've learned to start my side projects as public by default, even when incomplete. So Team Time zone was on GitHub from the first commit. Knowing that it was up there was a little more motivation to finish it and ship.
 
+## Future
+
+Team Time Zone works pretty well for me. There are only a few things I'd like to do next.
+
+I want to upgrade to Ember 2.0 as soon as possible. I'm waiting for [the new version of ember-simple-auth][simple-auth-jjabrams]. Right now, it's the source of all my 1.13 deprecations, so the rest of the upgrade should go well. Looking forward to seeing how it works with torii.
+
+[simple-auth-jjabrams]: https://github.com/simplabs/ember-simple-auth/pull/602
+
+It would be nice if the deployment process wasn't such a disaster. It would be great to be able to use [ember-cli-deploy][ember-cli-deploy], but I'd have to do a lot of work to get there. I need an ssh adapter for assets, which doesn't exist yet. I also need to work out how to deploy the index, ideally without adding a dependency on Redis. It's low priority, considering how rarely I'll release.
+
+I'd also like to look into the performance problems with large teams. There's not so much data going through the app that this should be insurmountable, it's probably just a series of small inefficiences in the way I've set up computed properties. It would be neat if the app could render 2500 profiles and still have a responsive UI.
+
 ## Thanks
 
-There are lots of people to thank, but number one is probably [Sam Selikoff][sam-selikoff]. I couldn't have built this project without ember-cli-mirage. I would never have been able to get my app authenticated with Slack if I hadn't already built something worthwhile first, and only mirage let me do that.
+There are lots of people to thank, but number one is probably [Sam Selikoff][sam-selikoff]. I couldn't have built this project without [ember-cli-mirage][mirage]. I would never have been able to get my app authenticated with Slack if I hadn't already built something worthwhile first, and only mirage let me do that.
 
 [sam-selikoff]: https://github.com/samselikoff
+[mirage]: https://github.com/samselikoff/ember-cli-mirage
 
 If you're building Ember apps against JSON APIs, and you're not using mirage to develop or test them, you should really look into it. And if you can, help out with the project. There are tons of open issues that need help from other developers.
 
-torii has also been really valuable, as has simple-auth, and of course Ember itself. My very next project is to try to contribute something back to at least one of these projects.
+[torii][torii] has also been really valuable, as has [simple-auth][simple-auth], and of course Ember itself. My very next project is to try to contribute something back to at least one of these projects.
 
-Of course, this would not have been possible without Slack. For all my kvetching about it being a bit weird, the Slack web API is amazing. I hope to see many more little apps like mine using it to do cool stuff.
+[torii]: https://github.com/Vestorly/torii
+[simple-auth]: https://github.com/simplabs/ember-simple-auth
+
+Of course, this would not have been possible without Slack. For all my kvetching about it being a bit weird, the Slack web API is amazing. I hope to see many more little apps like mine using it to do even cooler stuff.
 
 And finally, eternal thanks to my partner Vic, who put up with me frowning at my MacBook and typing furiously when I should have been feeding the cats or doing the dishes. I'm just about to do both right now, I promise.
