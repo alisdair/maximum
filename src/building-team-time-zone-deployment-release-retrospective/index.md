@@ -86,7 +86,7 @@ It turns out that loading over 2,500 users into the app didn't go particularly w
 
 The app itself also wasn't particularly useful when showing thousands of users, so I also added a hard cap of 100 people. Then you can at least search for the people that are relevant to you without your browser exploding.
 
-These performance problems were before the introduction of [the Glimmer rendering engine](https://github.com/emberjs/ember.js/pull/10501). Perhaps the app would cope better with more users now that it's on Ember 1.13.
+These performance problems were before the introduction of [the Glimmer rendering engine](https://github.com/emberjs/ember.js/pull/10501). Looking again after an upgrade to 1.13 showed that render performance was much better, so I increased the limit to 250 users. Something smarter would be needed to cope with thousands of users, perhaps using something like [list-view](https://github.com/emberjs/list-view).
 
 ## Lessons learned
 
@@ -96,7 +96,7 @@ But even if I'm the only user, I still think it was worth doing.
 
 I learned a lot about the internals of Ember Data adapters and serializers, and how simple-auth and torii work. Both of these things are likely to be useful in my day job at some point. I also finally used flexbox in a real application, so I'm almost up to date with CSS from 2012 now.
 
-This is also the first Node.js-backed application I've built. While the back-end is super trivial, I had to pick up a lot of small things about how express.js worked, and also learned how to deploy Node apps. This directly led to me building a few Node modules recently.
+This is also the first Node.js-backed application I've built. While the back-end is super simple, I had to pick up a lot of small things about how express.js worked, and also learned how to deploy Node apps. This directly led to me building a few Node modules recently.
 
 I've also enjoyed writing this series of retrospective articles. It's been fun to braindump the process, and hopefully someone will find something useful from Googling later.
 
@@ -110,7 +110,7 @@ I also learned that sometimes it's okay to leave the boring or difficult stuff u
 
 And something else really important I learned from my friend [Jason Frame](http://jasonframe.co.uk): just because it's not finished doesn't mean you shouldn't ship it. I had lots of ambitious ideas for Team Time Zone that I wanted to get done before releasing anything to the world.
 
-But after talking with him about side projects and coder's block, I've learned to start my side projects as public by default, even when incomplete. So Team Time zone was on GitHub from the first commit. Knowing that it was up there was a little more motivation to finish it and ship.
+But after talking with him about side projects and coder's block, I've learned to start my side projects as public by default, even when incomplete. So Team Time Zone was on GitHub from the first commit. Knowing that it was up there was a little more motivation to finish it and ship.
 
 ## Future
 
@@ -122,18 +122,18 @@ I want to upgrade to Ember 2.0 as soon as possible. I'm waiting for [the new ver
 
 It would be nice if the deployment process wasn't such a disaster. It would be great to be able to use [ember-cli-deploy][ember-cli-deploy], but I'd have to do a lot of work to get there. I need an ssh adapter for assets, which doesn't exist yet. I also need to work out how to deploy the index, ideally without adding a dependency on Redis. It's low priority, considering how rarely I'll release.
 
-I'd also like to look into the performance problems with large teams. There's not so much data going through the app that this should be insurmountable, it's probably just a series of small inefficiences in the way I've set up computed properties. It would be neat if the app could render 2500 profiles and still have a responsive UI.
+I'd also like to look into the performance problems with large teams. There's not so much data going through the app that this should be insurmountable, but it's going to have to be much smarter about not rendering off-screen profiles.
 
 ## Thanks
 
-There are lots of people to thank, but number one is probably [Sam Selikoff][sam-selikoff]. I couldn't have built this project without [ember-cli-mirage][mirage]. I would never have been able to get my app authenticated with Slack if I hadn't already built something worthwhile first, and only mirage let me do that.
+There are lots of people and projects to thank. Number one is probably [Sam Selikoff][sam-selikoff]. I couldn't have built this project without [ember-cli-mirage][mirage]. I would never have been able to get my app authenticated with Slack if I hadn't already built something worthwhile first, and only mirage let me do that.
 
 [sam-selikoff]: https://github.com/samselikoff
 [mirage]: https://github.com/samselikoff/ember-cli-mirage
 
-If you're building Ember apps against JSON APIs, and you're not using mirage to develop or test them, you should really look into it. And if you can, help out with the project. There are tons of open issues that need help from other developers.
+If you're building Ember apps against JSON APIs, and you're not already using mirage to develop or test them, you should really look into it.
 
-[torii][torii] has also been really valuable, as has [simple-auth][simple-auth], and of course Ember itself. My very next project is to try to contribute something back to at least one of these projects.
+[torii][torii] has also been really valuable, as has [simple-auth][simple-auth]. My very next project is to try to contribute something back to at least one of these projects.
 
 [torii]: https://github.com/Vestorly/torii
 [simple-auth]: https://github.com/simplabs/ember-simple-auth
