@@ -29,17 +29,17 @@ To show you what I mean, [I've built a tiny Ember app][alert-banner-demo] ([code
 test('closing an alert', function(assert) {
   assert.expect(2);
 
-  var alert = Alert.create({ text: 'Hello, world!' });
-  this.set('alert', alert);
+  var hello = Alert.create({ text: 'Hello, world!' });
+  this.set('helloAlert', hello);
 
   this.render(hbs`
-    {{alert-banner alert=alert closeAction='assertClosed'}}
+    {{alert-banner alert=helloAlert closeAction='assertClosed'}}
   `);
 
   var $button = this.$('.alert-banner button');
   assert.equal($button.length, 1);
 
-  this.on('assertClosed', a => assert.deepEqual(a, alert));
+  this.on('assertClosed', a => assert.deepEqual(a, hello));
   $button.click();
 });
 ```
@@ -48,7 +48,7 @@ Wait! Look at this bit from the middle of the test:
 
 ```javascript
 this.render(hbs`
-  {{alert-banner alert=alert closeAction='assertClosed'}}
+  {{alert-banner alert=helloAlert closeAction='assertClosed'}}
 `);
 ```
 
@@ -92,9 +92,9 @@ You will never use an Ember component like this in your production code. Compone
 
 ```javascript
 test('changing colors', function(assert) {
-  this.set('name', 'red');
+  this.set('colorName', 'red');
 
-  this.render(hbs`{{pretty-color name=name}}`);
+  this.render(hbs`{{pretty-color name=colorName}}`);
 
   assert.equal(this.$('.pretty-color').attr('style'),
                'color: red;');
@@ -241,7 +241,7 @@ actions: {
 If we want our component to fire this action, we render it like this:
 
 ```handlebars
-{{alert-banner alert=alert closeAction='removeAlert'}}
+{{alert-banner alert=helloAlert closeAction='removeAlert'}}
 ```
 
 Our component template now has a conditional close button:
@@ -271,17 +271,17 @@ Testing this with an integration test is straightforward:
 test('closing an alert', function(assert) {
   assert.expect(2);
 
-  var alert = Alert.create({ text: 'Hello, world!' });
-  this.set('alert', alert);
+  var hello = Alert.create({ text: 'Hello, world!' });
+  this.set('helloAlert', hello);
 
   this.render(hbs`
-    {{alert-banner alert=alert closeAction='assertClosed'}}
+    {{alert-banner alert=helloAlert closeAction='assertClosed'}}
   `);
 
   var $button = this.$('.alert-banner button');
   assert.equal($button.length, 1);
 
-  this.on('assertClosed', a => assert.deepEqual(a, alert));
+  this.on('assertClosed', a => assert.deepEqual(a, hello));
   $button.click();
 });
 ```
@@ -293,7 +293,7 @@ We render the template just as we would in the app, and then set up an action ha
 Alert banners are boring if all they can render is plain text. So let's add support for [yielding to a block with the alert as a parameter][component-yielding]. Using the component would look like this:
 
 ```handlebars
-{{#alert-banner alert=alert as |text|}}
+{{#alert-banner alert=errorAlert as |text|}}
   <h3>Save Failed!</h3>
 
   <p class="text-warning">{{text}}</p>
@@ -310,10 +310,10 @@ The test is also really easy to write. We just update the template string in our
 
 ```javascript
 test('with block for rendering text', function(assert) {
-  this.set('alert', Alert.create({ text: 'Panic!' });
+  this.set('panicAlert', Alert.create({ text: 'Panic!' });
 
   this.render(hbs`
-    {{#alert-banner alert=alert as |text|}}
+    {{#alert-banner alert=panicAlert as |text|}}
       <h3 class="text-danger">Something Went Wrong</h3>
 
       <p>{{text}}</p>
@@ -329,12 +329,6 @@ test('with block for rendering text', function(assert) {
 ```
 
 You can see [the full source code for this app and component on GitHub][sample-project], and [try out the component at the demo page][alert-banner-demo].
-
-## Limitations
-
-There is one small problem with the current implementation of component integration testing. Because it doesn't boot the entire app, you can't render links with `link-to`. [This is a known issue and is being worked on][link-to-incompatible], so hopefully it will be resolved soon.
-
-[link-to-incompatible]: https://github.com/switchfly/ember-test-helpers/issues/41
 
 ## Links and Credits
 
