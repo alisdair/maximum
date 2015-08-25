@@ -330,6 +330,12 @@ test('with block for rendering text', function(assert) {
 
 You can see [the full source code for this app and component on GitHub][sample-project], and [try out the component at the demo page][alert-banner-demo].
 
+## Limitations
+
+If you're using Ember 1.10&ndash;1.12, you can't integration test components which render links with `link-to`. [This is a known issue][link-to-incompatible], and a fix has been merged into the Ember 1.13 and 2.0 releases. Good motivation to upgrade!
+
+[link-to-incompatible]: https://github.com/switchfly/ember-test-helpers/issues/41
+
 ## Links and Credits
 
 Finally, a few links and thanks:
