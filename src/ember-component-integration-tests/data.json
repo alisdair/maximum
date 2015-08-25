@@ -1,5 +1,6 @@
 {
   "date": "2015-06-20",
   "title": "Ember component integration tests",
-  "excerpt": "How to fully integration test your Ember components in isolation from the rest of your app. Way better than unit testing."
+  "excerpt": "How to fully integration test your Ember components in isolation from the rest of your app. Way better than unit testing.",
+  "appends": ["_ember-community-versions.html"]
 }
