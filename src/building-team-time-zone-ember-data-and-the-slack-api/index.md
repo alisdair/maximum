@@ -4,7 +4,7 @@ This is part two of a five part series on building [Team Time Zone][team-time-zo
 
 After [some initial prototyping and planning][inception], the next step was integrating the Slack API with Ember Data. I wanted to be able to fetch a list of users, load them into my local data store, and use the data to start building my user interface code. I wanted to tackle the login part last, so this assumed that authentication was solved.
 
-[inception]: /building-team-time-zone-inception-planning-and-prototyping/
+[inception]: /building-team-time-zone-inception-prototype-and-planning/
 
 Ember's testing support is really great. There are incredible tools provided by the community that make testing your app against a JSON API really fun. So I decided to build my Ember Data adapter code test-first, without even trying to hit the Slack API itself at all.
 
