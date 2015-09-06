@@ -109,7 +109,7 @@ actions: {
 }
 ```
 
-You can see that this action includes a parameter, the new name of the model. And it also returns the result of `model.save()`, which since we're using Ember Data, is a promise.
+You can see that this action includes a parameter, the new name of the model. And it also returns the result of `model.save()`, which since we're using Ember Data is a promise.
 
 The `name-editor` component's code is mostly as you'd expect, but the interesting part is the save action handler:
 
