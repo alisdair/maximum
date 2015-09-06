@@ -1,0 +1,5 @@
+{
+  "date": "2015-09-07",
+  "title": "Ember closure actions have return values",
+  "excerpt": "One of my favourite new features in Ember 1.13 is closure actions. Actions are now normal JavaScript functions, so they can return a value. This is useful!"
+}
