@@ -27,7 +27,7 @@
   "scripts": {
     "new": "node new.js",
     "test": "mocha && eslint build.js config/ lib/",
-    "build": "node --harmony_generators build.js",
+    "build": "node build.js",
     "serve": "http-server build -p 5400 -o -c-1",
     "watch": "node watch.js",
     "start": "npm run build && npm run serve",
