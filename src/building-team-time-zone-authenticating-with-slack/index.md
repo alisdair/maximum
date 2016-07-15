@@ -46,7 +46,7 @@ But the design of simple-auth still allows this to work. The interface for an au
   }
 ```
 
-[simple-auth-oauth2-bearer]: https://github.com/simplabs/ember-simple-auth/blob/master/packages/ember-simple-auth-oauth2/lib/simple-auth-oauth2/authorizers/oauth2.js
+[simple-auth-oauth2-bearer]: https://github.com/simplabs/ember-simple-auth/blob/3b4673771583dc6f46ad2a3b177492d3e65c18cf/addon/authorizers/oauth2-bearer.js#L37-L43
 
 For Slack, we need to do some fiddling with the URL instead. I don't know of any reliable, easy way to append a parameter to the URL, so I had to write my own function to do it.
 
@@ -83,7 +83,7 @@ This grabs the keys of the passed params object, sorts them (to make sure the pa
 
 The code itself isn't particularly neat, or efficient. But it's independent of the rest of the authorizer, so it's really easy to write [a comprehensive set of tests][append-url-params-tests].
 
-[append-url-params-tests]: https://github.com/alisdair/team-time-zone/blob/master/tests/unit/utils/append-url-params-test.js
+[append-url-params-tests]: https://github.com/alisdair/team-time-zone/blob/c4dca86b34aee202f6fa131ee4f3458329a2fd14/tests/unit/utils/append-url-params-test.js
 
 So that's all there is to authorization! Grab the token out of the session, splat it onto the end of the URL, and we're done. The only problem now is getting the token into the session in the first place.
 
@@ -130,13 +130,13 @@ The login route has two responsibilities: set up the secure state parameter, and
 
 This uses [a simple random URL-safe string generator that I wrote for this project][random-url-safe] to set up the session state, then passes it to the authenticator. Simple!
 
-[random-url-safe]:https://github.com/alisdair/team-time-zone/blob/master/app/utils/random.js
+[random-url-safe]: https://github.com/alisdair/team-time-zone/blob/c4dca86b34aee202f6fa131ee4f3458329a2fd14/app/utils/random.js
 
 ### simple-auth-torii Slack authenticator
 
 Of the other three modules, the authenticator was the easiest to get working. [All of the source code is here][slack-authenticator-github], but the interesting part is the `authenticate` method.
 
-[slack-authenticator-github]: https://github.com/alisdair/team-time-zone/blob/master/app/authenticators/slack.js
+[slack-authenticator-github]: https://github.com/alisdair/team-time-zone/blob/c4dca86b34aee202f6fa131ee4f3458329a2fd14/app/authenticators/slack.js
 
 ```javascript
   authenticate: function(state) {
@@ -163,11 +163,11 @@ The promise chain matches the authentication flow: hit the Slack API, then hit o
 
 My Slack torii provider is more involved. It's based on [torii's default OAuth2 code provider][oauth-code-torii-github], with a few additions.
 
-[oauth-code-torii-github]: https://github.com/Vestorly/torii/blob/master/lib/torii/providers/oauth2-code.js
+[oauth-code-torii-github]: https://github.com/Vestorly/torii/blob/5bfd7fc7c591d27dffea45eaa84c0668d6ea0cf4/lib/torii/providers/oauth2-code.js
 
 There's a lot of code, so I want to highlight the basic structure of what is going on here by trimming out the less essential parts. [See GitHub for the unabridged source][slack-torii-github].
 
-[slack-torii-github]: https://github.com/alisdair/team-time-zone/blob/master/app/torii-providers/slack-oauth2.js
+[slack-torii-github]: https://github.com/alisdair/team-time-zone/blob/c4dca86b34aee202f6fa131ee4f3458329a2fd14/app/torii-providers/slack-oauth2.js
 
 Here's the `open` method, as called above in the authenticator:
 
@@ -199,7 +199,7 @@ First we check that the `state` parameter matches our expected random state, to 
 
 The final piece of the puzzle was working out how to hook up the authenticator and the provider. I finally worked this out by reading tons of torii and simple-auth source code. [Here's the initializer that makes it happen][initializer]:
 
-[initializer]: https://github.com/alisdair/team-time-zone/blob/master/app/initializers/slack-torii.js
+[initializer]: https://github.com/alisdair/team-time-zone/blob/c4dca86b34aee202f6fa131ee4f3458329a2fd14/app/initializers/slack-torii.js
 
 ```javascript
 import Authenticator from 'ttz/authenticators/slack';
@@ -225,7 +225,7 @@ Next is how we register our authenticator. We initialize the authenticator by ca
 
 All that's left is taking the Slack authentication data, and finishing off the last few stages of the protocol. This needed a back end server to send an API request to Slack.
 
-Node.js seemed like the perfect choice for this, so I built the server in express. [It's fifty lines of JavaScript, most of which is error handling](https://github.com/alisdair/team-time-zone-backend/blob/master/routes.js).
+Node.js seemed like the perfect choice for this, so I built the server in express. [It's fifty lines of JavaScript, most of which is error handling](https://github.com/alisdair/team-time-zone-backend/blob/63465df1ead5d3b7f1493960c5b4427d8285502e/routes.js).
 
 ## Testing
 
