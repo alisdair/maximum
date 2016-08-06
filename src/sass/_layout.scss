@@ -29,25 +29,23 @@ img, svg {
   margin: 0 auto;
 }
 
-.header--main {
+.header {
   background: $paper-white;
   margin: $spacing auto;
   text-align: center;
 }
 
-.footer--main {
+.footer {
   @include heading-font;
 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-weight: bold;
   margin: (4 * $spacing) auto (2 * $spacing) auto;
-  overflow: auto;
-}
 
-.pull-left {
-  float: left;
-}
-
-.pull-right {
-  float: right;
-  text-align: right;
+  &__right {
+    flex: 1;
+    text-align: right;
+  }
 }
