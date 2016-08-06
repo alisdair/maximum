@@ -1,0 +1,36 @@
+@import "variables";
+
+.header {
+  box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+article {
+  margin-top: 6.5em;
+}
+
+.bookmarklet {
+  text-align: center;
+
+  a {
+    @include heading-font;
+
+    background: #16e;
+    border-radius: 3px;
+    border-bottom: 1px solid #139;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition-property: background;
+    transition-duration: 150ms;
+
+    &:hover, &:active, &:focus {
+      background: #27e;
+      border-bottom-color: #16e;
+    }
+  }
+}
