@@ -1,0 +1,34 @@
+input.error {
+  color: #d22;
+}
+
+#decoded-bits {
+  rect {
+    fill: transparent;
+
+    &.span {
+      fill-opacity: 0.5;
+      fill: #7ED321;
+    }
+
+    &.error {
+      fill-opacity: 0.5;
+      fill: #E32E21;
+    }
+  }
+}
+
+#encoder-output {
+  text-align: center;
+  font-family: "DejaVu Sans Mono", monospace;
+
+  &.error {
+    color: #d22;
+  }
+}
+
+form, svg {
+  display: block;
+  margin: 1.5em auto;
+  text-align: center;
+}
