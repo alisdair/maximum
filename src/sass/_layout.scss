@@ -1,0 +1,53 @@
+hr {
+  background: $light-grey;
+  border: 0;
+  height: 1px;
+}
+
+.page-width {
+  margin: 0 auto;
+  max-width: 35em + $spacing * 2;
+}
+
+.pad {
+  padding: $spacing;
+}
+
+.pad-v {
+  padding-top: $spacing;
+  padding-bottom: $spacing;
+}
+
+.pad-h {
+  padding-left: $spacing;
+  padding-right: $spacing;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.header--main {
+  background: $paper-white;
+  margin: $spacing auto;
+  text-align: center;
+}
+
+.footer--main {
+  @include heading-font;
+
+  font-weight: bold;
+  margin: (4 * $spacing) auto (2 * $spacing) auto;
+  overflow: auto;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+  text-align: right;
+}
