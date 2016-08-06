@@ -1,0 +1,6 @@
+{
+  "date": "2016-08-06",
+  "title": "Simple item aligment with flexbox",
+  "excerpt": "Flexbox is powerful and sophisticated, but my favourite use of it is really simple. Align things easily with this pattern.",
+  "stylesheets": ["../sass/site.css", "style.css"]
+}

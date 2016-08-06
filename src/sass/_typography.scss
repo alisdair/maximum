@@ -1,4 +1,4 @@
-body {
+html {
   @include body-font;
 
   font-size: 16px;
@@ -46,7 +46,7 @@ blockquote {
 }
 
 @media screen and (min-width: 560px) {
-  body {
+  html {
     font-size: 20px;
   }
 
