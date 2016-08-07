@@ -42,7 +42,7 @@
     "mocha": "^2.2.5",
     "node-watch": "^0.3.4",
     "rsvp": "^3.0.21",
-    "seed-button": "git+https://github.com/helpscout/seed-button.git",
+    "seed-button": "^0.0.2",
     "seed-control-group": "0.0.1",
     "seed-flexy": "^0.1.3",
     "seed-harvester": "^0.0.8",
