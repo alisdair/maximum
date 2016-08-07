@@ -1,5 +1,11 @@
-input.error {
-  color: #d22;
+@import "pack/seed-button/_index";
+@import "pack/seed-control-group/_index";
+@import "pack/seed-input/_index";
+@import "variables";
+
+.mrg-h-sm {
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 #decoded-bits {
@@ -19,8 +25,8 @@ input.error {
 }
 
 #encoder-output {
+  @include code-font;
   text-align: center;
-  font-family: "DejaVu Sans Mono", monospace;
 
   &.error {
     color: #d22;
@@ -28,7 +34,6 @@ input.error {
 }
 
 form, svg {
-  display: block;
+  display: flex;
   margin: 1.5em auto;
-  text-align: center;
 }

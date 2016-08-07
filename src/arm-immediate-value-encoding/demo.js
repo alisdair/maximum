@@ -154,10 +154,10 @@
       var encoded = encode(value),
         shift = (encoded >>> 8) & 0xF;
       encoded_bits(encoded);
-      input.classList.remove("error");
+      input.classList.remove("is-error");
       span(shift);
     } catch (e) {
-      input.classList.add("error");
+      input.classList.add("is-error");
       encode_error();
       span_error(value);
     }
