@@ -33,7 +33,10 @@
   }
 }
 
-form, svg {
+form {
   display: flex;
+}
+
+form, svg {
   margin: 1.5em auto;
 }
