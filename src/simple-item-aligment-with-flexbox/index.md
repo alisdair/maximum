@@ -88,9 +88,7 @@ Here are some examples where it makes sense:
     <a class="c-button c-button--sm" href="#">&lsaquo;</a>
     <a class="c-button c-button--sm" href="#">1</a>
     <a class="c-button c-button--sm" href="#">2</a>
-    <a class="c-button c-button--sm" href="#">3</a>
     <span class="c-button c-button--sm is-disabled">…</span>
-    <a class="c-button c-button--sm" href="#">23</a>
     <a class="c-button c-button--sm" href="#">24</a>
     <a class="c-button c-button--sm" href="#">25</a>
     <a class="c-button c-button--sm" href="#">&rsaquo;</a>
@@ -106,9 +104,7 @@ Here are some examples where it makes sense:
     <a class="c-button c-button--sm" href="#">&lsaquo;</a>
     <a class="c-button c-button--sm" href="#">1</a>
     <a class="c-button c-button--sm" href="#">2</a>
-    <a class="c-button c-button--sm" href="#">3</a>
     <span class="c-button c-button--sm is-disabled">…</span>
-    <a class="c-button c-button--sm" href="#">23</a>
     <a class="c-button c-button--sm" href="#">24</a>
     <a class="c-button c-button--sm" href="#">25</a>
     <a class="c-button c-button--sm" href="#">&rsaquo;</a>
@@ -170,17 +166,14 @@ Here are some examples where it makes sense:
 <div class="o-flexy u-mrg-b-5">
   <div>
     <button class="c-button is-success">A</button>
-    <button class="c-button is-success">B</button>
   </div>
   <div>
+    <button class="c-button is-warning">B</button>
     <button class="c-button is-warning">C</button>
-    <button class="c-button is-warning">D</button>
   </div>
   <div>
+    <button class="c-button is-error">D</button>
     <button class="c-button is-error">E</button>
-    <button class="c-button is-error">F</button>
-    <button class="c-button is-error">G</button>
-    <button class="c-button is-error">H</button>
   </div>
 </div>
 
@@ -188,17 +181,14 @@ Here are some examples where it makes sense:
 <div class="o-flexy u-mrg-b-5">
   <div>
     <button class="c-button is-success">A</button>
-    <button class="c-button is-success">B</button>
   </div>
   <div>
+    <button class="c-button is-warning">B</button>
     <button class="c-button is-warning">C</button>
-    <button class="c-button is-warning">D</button>
   </div>
   <div>
+    <button class="c-button is-error">D</button>
     <button class="c-button is-error">E</button>
-    <button class="c-button is-error">F</button>
-    <button class="c-button is-error">G</button>
-    <button class="c-button is-error">H</button>
   </div>
 </div>
 ```
