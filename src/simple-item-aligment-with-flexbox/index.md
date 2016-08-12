@@ -116,9 +116,9 @@ Here are some examples where it makes sense:
 ### Form layout
 
 <div class="o-flexy u-mrg-b-5">
-  <label class="u-mrg-r-2">Name</label>
+  <label class="u-mrg-r-2" for="name">Name</label>
   <div class="o-flexy__block">
-    <input class="c-input" placeholder="Alisdair McDiarmid">
+    <input class="c-input" id="name" placeholder="Alisdair McDiarmid">
   </div>
   <div class="u-mrg-l-2">
     <button class="c-button">Cancel</button>
@@ -128,9 +128,9 @@ Here are some examples where it makes sense:
 
 ```html
 <div class="o-flexy u-mrg-b-5">
-  <label class="u-mrg-r-2">Name</label>
+  <label class="u-mrg-r-2" for="name">Name</label>
   <div class="o-flexy__block">
-    <input class="c-input" placeholder="Alisdair McDiarmid">
+    <input class="c-input" id="name" placeholder="Alisdair McDiarmid">
   </div>
   <div>
     <button class="c-button">Cancel</button>
