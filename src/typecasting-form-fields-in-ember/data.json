@@ -1,0 +1,6 @@
+{
+  "date": "2016-08-14",
+  "title": "Typecasting form fields in Ember",
+  "excerpt": "How to make sure you don't accidentally convert everything to strings when building forms in Ember.js. Spoilers: use a two-way computed property macro.",
+  "stylesheets": ["../sass/site.css", "style.css"]
+}
