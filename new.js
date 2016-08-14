@@ -46,7 +46,7 @@ var questions = [
     }
   },
   {
-    type: 'input',
+    type: 'editor',
     name: 'excerpt',
     message: 'Write a quick one-line excerpt (or leave blank for now)',
     default: ''
