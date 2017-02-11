@@ -1,1 +1,1 @@
-[Alisdair McDiarmid](/) is a senior software engineer based in Glasgow, Scotland. This is his weblog, which is mostly about software. Links: [GitHub](https://github.com/alisdair) and [Twitter](https://twitter.com/alisdair).
+[Alisdair McDiarmid](/) is a senior software engineer based in Toronto, Ontario. This is his weblog, which is mostly about software. Links: [GitHub](https://github.com/alisdair) and [Twitter](https://twitter.com/alisdair).
