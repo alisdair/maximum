@@ -1,6 +1,6 @@
 {
   "title": "Alisdair McDiarmid",
-  "excerpt": "Alisdair McDiarmid is a senior software engineer based in Glasgow, Scotland.",
+  "excerpt": "Alisdair McDiarmid is a software engineer based in Toronto, Ontario.",
   "layout": "index.hbs",
   "stylesheets": ["sass/site.css"]
 }
