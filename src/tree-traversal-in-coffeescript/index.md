@@ -240,10 +240,9 @@ But I find it interesting how similar the implementations can be in these two ve
 
 ## Coda
 
-I hope this has been a fun read. You can [take a look at the code][code] and run it at the command-line using `coffee traversal.coffee`. [Tweet at me if anything is unclear or if you spot a mistake][tweet].
+I hope this has been a fun read. You can [take a look at the code][code] and run it at the command-line using `coffee traversal.coffee`.
 
 [code]: https://gist.github.com/alisdair/5092116
-[tweet]: http://twitter.com/alisdair
 
 If this sort of programming interests you, you should read [Reg Braithwaite's books][raganwald], most especially [Kestrels, Quirky Birds, and Hopeless Egocentricity][kestrels]. His work is the most accessible introduction to functional programming I know of.
 
