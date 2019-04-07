@@ -3,6 +3,6 @@
 module.exports = {
   site: {
     title: 'Alisdair McDiarmid',
-    url: 'http://alisdair.mcdiarmid.org'
+    url: 'https://alisdair.mcdiarmid.org'
   }
 };
