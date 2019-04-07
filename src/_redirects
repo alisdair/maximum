@@ -1,0 +1,6 @@
+# Redirect root domain to alisdair
+http://mcdiarmid.org/* https://alisdair.mcdiarmid.org/:splat 301!
+https://mcdiarmid.org/* https://alisdair.mcdiarmid.org/:splat 301!
+
+# Redirect http to https
+http://alisdair.mcdiarmid.org/* https://alisdair.mcdiarmid.org/:splat 301!
