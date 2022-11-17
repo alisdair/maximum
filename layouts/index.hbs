@@ -5,20 +5,6 @@
     {{{contents}}}
   </header>
 
-  <nav class="posts-index" role="navigation">
-    {{#each collections.posts}}
-      <a href="{{permalink}}" class="post-link">
-        <article class="pad">
-          <header>
-            <time datetime="{{date}}">{{moment date 'Do MMMM YYYY'}}</time>
-            <h1>{{title}}</h1>
-          </header>
-
-          <p>{{excerpt}}</p>
-        </article>
-      </a>
-    {{/each}}
-  </nav>
 </main>
 
 {{> footer}}
