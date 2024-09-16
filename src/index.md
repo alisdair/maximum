@@ -1,1 +1,1 @@
-[Alisdair McDiarmid](/) is a software engineer based in Toronto, Ontario.
+[Alisdair McDiarmid](/) is a software engineer based in Vancouver, British Columbia.
